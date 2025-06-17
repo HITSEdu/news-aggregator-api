@@ -1,0 +1,11 @@
+from pydantic import BaseModel
+
+class NewsOut(BaseModel):
+    ticker: str
+    source: str
+    summary_text: str
+    price_difference: str
+    timestamp: str
+    
+    class Config:
+        orm_mode = True 

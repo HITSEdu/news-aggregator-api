@@ -1,0 +1,2382 @@
+[
+  {
+    "name": "ABIO",
+    "description": "ПАО \"Артген\"",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/human-stem-cells.svg"
+  },
+  {
+    "name": "ABRD",
+    "description": "Абрау-Дюрсо ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/abrau-durso.svg"
+  },
+  {
+    "name": "AFKS",
+    "description": "АФК \"Система\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sistema-pjsfc.svg"
+  },
+  {
+    "name": "AFLT",
+    "description": "Аэрофлот-росс.авиалин(ПАО)ао",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/aeroflot.svg"
+  },
+  {
+    "name": "AFMC",
+    "description": "Агрофирма Мценская - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/agrofirma-mtsenskaya.svg"
+  },
+  {
+    "name": "AGRT",
+    "description": "Агрегат - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/agregat.svg"
+  },
+  {
+    "name": "AKAI",
+    "description": "БПИФ Антиинфляционный",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/akvg-etf-videogames.svg"
+  },
+  {
+    "name": "AKBC",
+    "description": "БПИФ Альфа Индекс голуб фишек",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/akvg-etf-videogames.svg"
+  },
+  {
+    "name": "AKFB",
+    "description": "БПИФ Альфа Обл с перем купоном",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/akvg-etf-videogames.svg"
+  },
+  {
+    "name": "AKGD",
+    "description": "БПИФ Альфа Капитал Золото",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/akvg-etf-videogames.svg"
+  },
+  {
+    "name": "AKHT",
+    "description": "БПИФ Альфа Капитал ИТ Лидеры",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/akvg-etf-videogames.svg"
+  },
+  {
+    "name": "AKIE",
+    "description": "БПИФ Альфа Упр Акции с доходом",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/akvg-etf-videogames.svg"
+  },
+  {
+    "name": "AKMB",
+    "description": "БПИФ Альфа Управляем облигации",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/akvg-etf-videogames.svg"
+  },
+  {
+    "name": "AKME",
+    "description": "БПИФ Альфа Управляем Акции",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/akvg-etf-videogames.svg"
+  },
+  {
+    "name": "AKMM",
+    "description": "БПИФ Альфа Денежный рынок",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/akvg-etf-videogames.svg"
+  },
+  {
+    "name": "AKMP",
+    "description": "БПИФ Альфа Денежный рынок Плюс",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/akvg-etf-videogames.svg"
+  },
+  {
+    "name": "AKPP",
+    "description": "БПИФ Альфа Платина-Палладий",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/akvg-etf-videogames.svg"
+  },
+  {
+    "name": "AKQU",
+    "description": "БПИФ Альфа Капитал Квант",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/akvg-etf-videogames.svg"
+  },
+  {
+    "name": "AKRN",
+    "description": "Акрон ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/acron.svg"
+  },
+  {
+    "name": "AKUP",
+    "description": "Альфа-Капитал Умный портфель",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/akvg-etf-videogames.svg"
+  },
+  {
+    "name": "ALRS",
+    "description": "АЛРОСА ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/alrosa.svg"
+  },
+  {
+    "name": "AMFL",
+    "description": "БПИФ АТОН – Флоатеры",
+    "icon_url": null
+  },
+  {
+    "name": "AMGB",
+    "description": "БПИФ АТОН - Длинные ОФЗ",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/aton.svg"
+  },
+  {
+    "name": "AMNR",
+    "description": "АТОН – Накопительный в рублях",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/aton.svg"
+  },
+  {
+    "name": "AMNY",
+    "description": "АТОН - Накопительный в юанях",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/aton.svg"
+  },
+  {
+    "name": "AMRE",
+    "description": "БПИФ АТОН – Российские акции +",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/aton.svg"
+  },
+  {
+    "name": "AMRH",
+    "description": "БПИФ АТОН Высокодох. рос. обл.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/aton.svg"
+  },
+  {
+    "name": "APRI",
+    "description": "АПРИ",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/apri.svg"
+  },
+  {
+    "name": "APTK",
+    "description": "ПАО \"Аптечная сеть 36,6\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/pharmacy-chain-36.svg"
+  },
+  {
+    "name": "AQUA",
+    "description": "ПАО ИНАРКТИКА",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/russian-aquacultur.svg"
+  },
+  {
+    "name": "ARSA",
+    "description": "УК Арсагера ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/arsagera-asset-mgm.svg"
+  },
+  {
+    "name": "ASSB",
+    "description": "\"Астраханская ЭСК\" ПАО",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/astrakhan-power-sa.svg"
+  },
+  {
+    "name": "ASTR",
+    "description": "Группа Астра - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/astra-group.svg"
+  },
+  {
+    "name": "AVAN",
+    "description": "АКБ \"АВАНГАРД\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/avangard-jsb.svg"
+  },
+  {
+    "name": "BANE",
+    "description": "Башнефть АНК - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/bashneft.svg"
+  },
+  {
+    "name": "BANEP",
+    "description": "Башнефть АНК - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/bashneft.svg"
+  },
+  {
+    "name": "BCSB",
+    "description": "БКС Облигации повыш доход",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/bcsb-etf-high-yield-sme-bonds.svg"
+  },
+  {
+    "name": "BCSD",
+    "description": "БПИФ БКС Денежный рынок",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/bcsb-etf-high-yield-sme-bonds.svg"
+  },
+  {
+    "name": "BCSG",
+    "description": "БПИФ БКС Золото",
+    "icon_url": null
+  },
+  {
+    "name": "BCSR",
+    "description": "БПИФ БКС Индекс Росс рынка",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/bcsb-etf-high-yield-sme-bonds.svg"
+  },
+  {
+    "name": "BCSW",
+    "description": "БПИФ БКС Всепогодный портфель",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/bcsb-etf-high-yield-sme-bonds.svg"
+  },
+  {
+    "name": "BELU",
+    "description": "НоваБев Групп ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/beluga-group.svg"
+  },
+  {
+    "name": "BESK",
+    "description": "БЭСК - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/bpgc-pref.svg"
+  },
+  {
+    "name": "BESKP",
+    "description": "БЭСК - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/bpgc-pref.svg"
+  },
+  {
+    "name": "BGES",
+    "description": "АО \"Богучанская ГЭС\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ao-boguchanskaya-ges-pfr.svg"
+  },
+  {
+    "name": "BGESP",
+    "description": "АО \"Богучанская ГЭС\" - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ao-boguchanskaya-ges-pfr.svg"
+  },
+  {
+    "name": "BISVP",
+    "description": "Башинформсвязь(ПАО) - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/bashinformsvyaz.svg"
+  },
+  {
+    "name": "BLNG",
+    "description": "Белон ОАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/belon.svg"
+  },
+  {
+    "name": "BMSM",
+    "description": "АО \"Бамстроймеханизация\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/jsc-bamstroymechanizatsia.svg"
+  },
+  {
+    "name": "BNDA",
+    "description": "ДОХОДЪ Облигации 2025/28/31",
+    "icon_url": null
+  },
+  {
+    "name": "BNDB",
+    "description": "ДОХОДЪ Облигации 2026/29/32",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/dohod.svg"
+  },
+  {
+    "name": "BNDC",
+    "description": "ДОХОДЪ Облигации 2027/30/33",
+    "icon_url": null
+  },
+  {
+    "name": "BOGN",
+    "description": "Богдановичское \"Огнеупоры\" - обыкн.",
+    "icon_url": null
+  },
+  {
+    "name": "BOND",
+    "description": "ДОХОДЪ Сбондс Корп. обл. РФ",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/dohod.svg"
+  },
+  {
+    "name": "BRSZP",
+    "description": "АО \"БСЗ\" - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/bsz.svg"
+  },
+  {
+    "name": "BRZL",
+    "description": "Бурятзолото ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/buryatzoloto.svg"
+  },
+  {
+    "name": "BSPB",
+    "description": "ПАО \"Банк \"Санкт-Петербург\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/bank-saint-petersburg.svg"
+  },
+  {
+    "name": "BSPBP",
+    "description": "Банк Санкт-Петербург - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/bank-saint-petersburg.svg"
+  },
+  {
+    "name": "BTSTP",
+    "description": "АО \"Бамтоннельстрой\" - прив.",
+    "icon_url": null
+  },
+  {
+    "name": "CARM",
+    "description": "СТГ - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/stg.svg"
+  },
+  {
+    "name": "CASH",
+    "description": "ААА БПИФ Ежедневный процент",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/cash-etf-daily-rate.svg"
+  },
+  {
+    "name": "CBOM",
+    "description": "\"МКБ\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/credit-bank-of-moscow.svg"
+  },
+  {
+    "name": "CENH",
+    "description": "ПАО \"ЦЕНТРЭНЕРГОХОЛДИНГ\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "CENHP",
+    "description": "ПАО \"Центрэнергохолдинг\" - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "CHGZ",
+    "description": "РН-Западная Сибирь ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rn-western-siberia.svg"
+  },
+  {
+    "name": "CHKZ",
+    "description": "\"ЧКПЗ\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/chelyabinsk-forge-and.svg"
+  },
+  {
+    "name": "CHMF",
+    "description": "Северсталь (ПАО)ао",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/severstal.svg"
+  },
+  {
+    "name": "CHMK",
+    "description": "\"ЧМК\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/chelyabinsk-met-pl.svg"
+  },
+  {
+    "name": "CNRU",
+    "description": "МКПАО \"ЦИАН\"",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/cian.svg"
+  },
+  {
+    "name": "CNTL",
+    "description": "\"Центральный Телеграф\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/central-telegraph.svg"
+  },
+  {
+    "name": "CNTLP",
+    "description": "\"Центральный Телеграф\" ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/central-telegraph.svg"
+  },
+  {
+    "name": "DATA",
+    "description": "Группа Аренадата",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/arenadata-group.svg"
+  },
+  {
+    "name": "DELI",
+    "description": "Каршеринг Руссия - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/delimobil.svg"
+  },
+  {
+    "name": "DGBZ",
+    "description": "Дорогобуж ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/dorogobuzh.svg"
+  },
+  {
+    "name": "DGIT",
+    "description": "АО \"ДИМ\" - обыкн.",
+    "icon_url": null
+  },
+  {
+    "name": "DIAS",
+    "description": "Диасофт - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/diasoft.svg"
+  },
+  {
+    "name": "DIOD",
+    "description": "Завод ДИОД ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/diod.svg"
+  },
+  {
+    "name": "DIVD",
+    "description": "БПИФ ДОХОДЪ Инд дивид акций",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/dohod.svg"
+  },
+  {
+    "name": "DORS",
+    "description": "ПАО \"Дорисс\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/pao-doriss-ord.svg"
+  },
+  {
+    "name": "DVEC",
+    "description": "\"ДЭК\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/far-eastern-energy.svg"
+  },
+  {
+    "name": "DZRD",
+    "description": "Донской завод радиодеталей - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/donskoy-factory-of.svg"
+  },
+  {
+    "name": "DZRDP",
+    "description": "Донской завод радиодеталей - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/donskoy-factory-of.svg"
+  },
+  {
+    "name": "EELT",
+    "description": "\"ЕвропЭлектротехника\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/european-eltech.svg"
+  },
+  {
+    "name": "ELFV",
+    "description": "\"ЭЛ5-Энерго\" ПАО",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/enel.svg"
+  },
+  {
+    "name": "ELMT",
+    "description": "Элемент",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/element.svg"
+  },
+  {
+    "name": "EMGL",
+    "description": "АО \"Электромагистраль\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ao-elektromagistral-pfr.svg"
+  },
+  {
+    "name": "EMGLP",
+    "description": "АО \"Электромагистраль\" - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ao-elektromagistral-pfr.svg"
+  },
+  {
+    "name": "ENPG",
+    "description": "МКПАО ЭН+ ГРУП - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/en-plus-group.svg"
+  },
+  {
+    "name": "EQMX",
+    "description": "БПИФ Индекс МосБиржи УК ВИМ",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/vim-investments.svg"
+  },
+  {
+    "name": "ESGE",
+    "description": "БПИФ УстойчРазвРоссКомп УК ВИМ",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/esgr-etf-rshb-moex-rspp-vectr.svg"
+  },
+  {
+    "name": "ESGR",
+    "description": "БПИФ РСХБ-МосБиржа-РСПП Вектор",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/esgr-etf-rshb-moex-rspp-vectr.svg"
+  },
+  {
+    "name": "ETLN",
+    "description": "ГДР ETALON GROUP PLC ORD SHS",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/etalon-group.svg"
+  },
+  {
+    "name": "EUTR",
+    "description": "ЕвроТранс - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/evrotrans.svg"
+  },
+  {
+    "name": "FEES",
+    "description": "\"ФСК - Россети\" ПАО",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/fsk-ees.svg"
+  },
+  {
+    "name": "FESH",
+    "description": "ДВ морское пароходство ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/far-eastern-shipping.svg"
+  },
+  {
+    "name": "FINC",
+    "description": "ФИНСТАР Денежный рынок +",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finstar-money-market.svg"
+  },
+  {
+    "name": "FIXP",
+    "description": "ГДР FixPrice Group PLC ORD SHS",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/fix-price-lt.svg"
+  },
+  {
+    "name": "FLOT",
+    "description": "Совкомфлот - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/pao-sovcomflot.svg"
+  },
+  {
+    "name": "FMMM",
+    "description": "БПИФ Финам Денежный рынок",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/fmmm-etf-money-market.svg"
+  },
+  {
+    "name": "FXBC",
+    "description": "FinEx BLOCKCHAIN UCITS ETF",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXCN",
+    "description": "FINEX CHINA UCITS ETF",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXDE",
+    "description": "FINEX GERMANY UCITS ETF",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXDM",
+    "description": "FinEx Ex-USA ETF USD",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXEM",
+    "description": "FINEX EM EX-CHINDIA UCITS ETF",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXES",
+    "description": "FinEx ESports UCITS ETF",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXFA",
+    "description": "FinEx Fallen Angels UCITS ETF",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXGD",
+    "description": "FinEx Gold ETF USD",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXIP",
+    "description": "FinEx RUB US TIPS UCITS ETF",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXIT",
+    "description": "FinEx USA IT UCITS ETF",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXKZ",
+    "description": "FinEx FFIN KZT UCITS ETF",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXMM",
+    "description": "FinEx Cash Equiv UCITS ETF RUB",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXRD",
+    "description": "FinEx Fallen Ang RUB UCITS ETF",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXRE",
+    "description": "FinEx US REIT UCITS ETF USD",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXRW",
+    "description": "FinEx RUB GLOBAL EQUITY UC ETF",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXTB",
+    "description": "FinEx USD CASH EQUIVALENTS ETF",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXTP",
+    "description": "FinEx US TIPS UCITS ETF",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXUS",
+    "description": "FinEx USA UCITS ETF",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "FXWO",
+    "description": "FinEx USD GLOBAL EQUITY UC ETF",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/finex-tradable-russian.svg"
+  },
+  {
+    "name": "GAZA",
+    "description": "ГАЗ ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gaz-public-joint.svg"
+  },
+  {
+    "name": "GAZAP",
+    "description": "ГАЗ ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gaz-public-joint.svg"
+  },
+  {
+    "name": "GAZP",
+    "description": "\"Газпром\" (ПАО) - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "GCHE",
+    "description": "Группа Черкизово ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/cherkizovo-group.svg"
+  },
+  {
+    "name": "GECO",
+    "description": "ЦГРМ ГЕНЕТИКО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/genetico.svg"
+  },
+  {
+    "name": "GEMA",
+    "description": "ПАО ММЦБ - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/intl-med-cntr-of-b.svg"
+  },
+  {
+    "name": "GEMC",
+    "description": "Юнайтед Медикал Груп ПАО",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ipjsc.svg"
+  },
+  {
+    "name": "GGOK",
+    "description": "ПАО \"Гайский ГОК\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/pao-gai-min-and-process-ord.svg"
+  },
+  {
+    "name": "GMKN",
+    "description": "ГМК \"Нор.Никель\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/norilsk.svg"
+  },
+  {
+    "name": "GOLD",
+    "description": "БПИФ Золото.Биржевой УК ВИМ",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/vtbr.svg"
+  },
+  {
+    "name": "GOOD",
+    "description": "ДОХОДЪ Стратегии денеж. рынка",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/dohod.svg"
+  },
+  {
+    "name": "GRNT",
+    "description": "ГородскиеИнновацТехнологии - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/city-innovative-te.svg"
+  },
+  {
+    "name": "GROD",
+    "description": "БПИФ ДОХОДЪ Инд акций роста",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/dohod.svg"
+  },
+  {
+    "name": "GSRB",
+    "description": "Газпром газорасп. Уфа - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "GTRK",
+    "description": "ПАО \"ГТМ\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/globaltruck-mgmt.svg"
+  },
+  {
+    "name": "GZES",
+    "description": "АО \"Газэнергосервис\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazenergoservis.svg"
+  },
+  {
+    "name": "HEAD",
+    "description": "МКПАО Хэдхантер",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/headhunter.svg"
+  },
+  {
+    "name": "HIMCP",
+    "description": "Химпром ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/khimprom.svg"
+  },
+  {
+    "name": "HNFG",
+    "description": "ХЭНДЕРСОН - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/henderson.svg"
+  },
+  {
+    "name": "HYDR",
+    "description": "ПАО \"РусГидро\"",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rushydro.svg"
+  },
+  {
+    "name": "HYPR",
+    "description": "АО \"Новая Энергия\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ao-new-energy-ord.svg"
+  },
+  {
+    "name": "IGST",
+    "description": "Ижсталь ПАО ао 2в.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/izhstal-pao-pubic.svg"
+  },
+  {
+    "name": "IGSTP",
+    "description": "Ижсталь ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/izhstal-pao-pubic.svg"
+  },
+  {
+    "name": "INFL",
+    "description": "БПИФ Ингосстрах Инфляционный",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/inru-etf-russia.svg"
+  },
+  {
+    "name": "INGO",
+    "description": "БПИФ Ингосстрах Корп облигации",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/inru-etf-russia.svg"
+  },
+  {
+    "name": "INGR",
+    "description": "ИНГРАД ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ingrad.svg"
+  },
+  {
+    "name": "IRAO",
+    "description": "\"Интер РАО\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/inter-rao-ues.svg"
+  },
+  {
+    "name": "IRKT",
+    "description": "\"Яковлев\" ПАО ак.об.-3",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/irkut-corporation.svg"
+  },
+  {
+    "name": "IVAT",
+    "description": "ПАО ИВА - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/pjsc-iva.svg"
+  },
+  {
+    "name": "IVOGP",
+    "description": "АО \"ГР Иваново\" - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "JNOS",
+    "description": "Славнефть-ЯНОС (ПАО) - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/slavneft-yaroslavn.svg"
+  },
+  {
+    "name": "JNOSP",
+    "description": "Славнефть-ЯНОС (ПАО) - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/slavneft-yaroslavn.svg"
+  },
+  {
+    "name": "KAZT",
+    "description": "Куйбышевазот ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/kuibyshevazot.svg"
+  },
+  {
+    "name": "KAZTP",
+    "description": "Куйбышевазот ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/kuibyshevazot.svg"
+  },
+  {
+    "name": "KBSB",
+    "description": "ТНС энерго Кубань ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tns-energo-kuban.svg"
+  },
+  {
+    "name": "KCHE",
+    "description": "Камчатскэнерго ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/kamchatskenergo-p.svg"
+  },
+  {
+    "name": "KCHEP",
+    "description": "Камчатскэнерго ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/kamchatskenergo-p.svg"
+  },
+  {
+    "name": "KEMZP",
+    "description": "АО \"КЭМЗ\" - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ao-kemz-prf.svg"
+  },
+  {
+    "name": "KESK",
+    "description": "АО \"Коми энергосбыт комп\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ao-komi-energosbyt-komp-ord.svg"
+  },
+  {
+    "name": "KGKC",
+    "description": "Курганская генер.комп.ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/kurgan-generation.svg"
+  },
+  {
+    "name": "KGKCP",
+    "description": "Курганская генер. комп. ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/kurgan-generation.svg"
+  },
+  {
+    "name": "KLOG",
+    "description": "Газпром газорасп. Калуга - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "KLSB",
+    "description": "\"Калужская сбыт.комп.\"ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/kaluga-power-sale.svg"
+  },
+  {
+    "name": "KLVZ",
+    "description": "Алкогольная Группа Кристалл",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/klvz-kristall.svg"
+  },
+  {
+    "name": "KMAZ",
+    "description": "КАМАЗ ПАО",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/kamaz.svg"
+  },
+  {
+    "name": "KMEZ",
+    "description": "Ковровский механический завод",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/kovrov-mechanical.svg"
+  },
+  {
+    "name": "KMTX",
+    "description": "АО \"Комитекс\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ao-komiteks-ord.svg"
+  },
+  {
+    "name": "KOGK",
+    "description": "Коршуновский ГОК ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/korshynov-mining.svg"
+  },
+  {
+    "name": "KRKN",
+    "description": "Саратовский НПЗ ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/saratov-oil-refine.svg"
+  },
+  {
+    "name": "KRKNP",
+    "description": "Саратовский НПЗ ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/saratov-oil-refine.svg"
+  },
+  {
+    "name": "KRKOP",
+    "description": "ТКЗ Красный котельщик ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/krasny-kotelshchik.svg"
+  },
+  {
+    "name": "KRNF",
+    "description": "АО \"КНП\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ao-krasnoyarskoilprod-ord.svg"
+  },
+  {
+    "name": "KROT",
+    "description": "\"КрасныйОктябрь\" ПАО - - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/krasnyj-octyabr.svg"
+  },
+  {
+    "name": "KROTP",
+    "description": "КрасныйОктябрь-1п",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/krasnyj-octyabr.svg"
+  },
+  {
+    "name": "KRSB",
+    "description": "Красноярскэнергосбыт - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/krasnoyarskenergos.svg"
+  },
+  {
+    "name": "KRSBP",
+    "description": "Красноярскэнергосбыт - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/krasnoyarskenergos.svg"
+  },
+  {
+    "name": "KTSB",
+    "description": "\"Костромск.сбыт.комп\" АО",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/kostromskaya-sbyto.svg"
+  },
+  {
+    "name": "KTSBP",
+    "description": "\"Костромск.сбыт.комп\" АО",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/kostromskaya-sbyto.svg"
+  },
+  {
+    "name": "KUNP",
+    "description": "АО \"Кубаньнефтепродукт\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosneft.svg"
+  },
+  {
+    "name": "KUNPP",
+    "description": "АО \"Кубаньнефтепродукт\" - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosneft.svg"
+  },
+  {
+    "name": "KUOG",
+    "description": "АО \"Курганоблгаз\" - обыкн.",
+    "icon_url": null
+  },
+  {
+    "name": "KUZB",
+    "description": "Банк \"Кузнецкий\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/kuznetsky-bank-pub.svg"
+  },
+  {
+    "name": "KZIZ",
+    "description": "Красногорск. з-д им.Зверева - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/krasnogorsk-zavod-zvereva-pref.svg"
+  },
+  {
+    "name": "KZIZP",
+    "description": "Красногорск. з-д им.Зверева - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/krasnogorsk-zavod-zvereva-pref.svg"
+  },
+  {
+    "name": "KZOS",
+    "description": "ПАО \"Органический синтез\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/organichesky-sinte.svg"
+  },
+  {
+    "name": "KZOSP",
+    "description": "ПАО \"Органический синтез\" - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/organichesky-sinte.svg"
+  },
+  {
+    "name": "KZRU",
+    "description": "АО \"УК \"Кузбассразрезуголь\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ao-uk-kuzbassrazrezugol-ord.svg"
+  },
+  {
+    "name": "KZSB",
+    "description": "ПАО \"Кузбассэнергосбыт\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/mechel.svg"
+  },
+  {
+    "name": "LDNH",
+    "description": "ОАО \"Сладонеж\" - обыкн.",
+    "icon_url": null
+  },
+  {
+    "name": "LEAS",
+    "description": "ПАО «ЛК «Европлан»",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/europlan.svg"
+  },
+  {
+    "name": "LENT",
+    "description": "Лента МКПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/lenta.svg"
+  },
+  {
+    "name": "LIFE",
+    "description": "Фармсинтез ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/pharmsynthez.svg"
+  },
+  {
+    "name": "LKOH",
+    "description": "НК ЛУКОЙЛ (ПАО) - - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/lukoil.svg"
+  },
+  {
+    "name": "LMBZ",
+    "description": "Ламбумиз",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/lambumiz.svg"
+  },
+  {
+    "name": "LNZL",
+    "description": "\"Лензолото\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/lenzoloto.svg"
+  },
+  {
+    "name": "LNZLP",
+    "description": "\"Лензолото\" ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/lenzoloto.svg"
+  },
+  {
+    "name": "LPOG",
+    "description": "АО \"ГР Липецк\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "LPSB",
+    "description": "Липецкая энергосбыт.ком.ОАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/lipetsk-power-sale.svg"
+  },
+  {
+    "name": "LQDT",
+    "description": "БПИФ Ликвидность УК ВИМ",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/vtbr.svg"
+  },
+  {
+    "name": "LSNG",
+    "description": "Россети Ленэнерго ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosseti.svg"
+  },
+  {
+    "name": "LSNGP",
+    "description": "Россети Ленэнерго ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosseti.svg"
+  },
+  {
+    "name": "LSRG",
+    "description": "Группа ЛСР ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/lsr-group.svg"
+  },
+  {
+    "name": "LVHK",
+    "description": "Левенгук ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/levenhuk-inc.svg"
+  },
+  {
+    "name": "MAGE",
+    "description": "\"Магаданэнерго\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/magadanenergo.svg"
+  },
+  {
+    "name": "MAGEP",
+    "description": "\"Магаданэнерго\" ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/magadanenergo.svg"
+  },
+  {
+    "name": "MAGN",
+    "description": "\"Магнитогорск.мет.комб\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/magnitogorsk.svg"
+  },
+  {
+    "name": "MBNK",
+    "description": "МТС-Банк - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/mtsbank.svg"
+  },
+  {
+    "name": "MDMG",
+    "description": "МКПАО «МД Медикал Груп»",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/md-medical-ipjsc.svg"
+  },
+  {
+    "name": "MESS",
+    "description": "ПАО \"МЭСС\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/pao-mosenergoset-stroy-ord.svg"
+  },
+  {
+    "name": "METZ",
+    "description": "ПАО \"Надежд металлург зав\" - обыкн.",
+    "icon_url": null
+  },
+  {
+    "name": "METZP",
+    "description": "ПАО \"Надежд металл завод\" - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/pao-nadezhd-metall-plant-pfr.svg"
+  },
+  {
+    "name": "MFGS",
+    "description": "\"Славнефть-Мегионнефтегаз\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/slavneft-megionnef.svg"
+  },
+  {
+    "name": "MFGSP",
+    "description": "ап Мегионнефтегаз",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/slavneft-megionnef.svg"
+  },
+  {
+    "name": "MGKL",
+    "description": "МГКЛ - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/mgkl.svg"
+  },
+  {
+    "name": "MGNT",
+    "description": "\"Магнит\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/magnit.svg"
+  },
+  {
+    "name": "MGTS",
+    "description": "ПАО \"МГТС\" ао (5 в)",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/moscow-city-teleph.svg"
+  },
+  {
+    "name": "MGTSP",
+    "description": "ПАО \"МГТС\" - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/moscow-city-teleph.svg"
+  },
+  {
+    "name": "MISB",
+    "description": "ТНС энерго Марий Эл ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tns-energo-mari-el.svg"
+  },
+  {
+    "name": "MISBP",
+    "description": "ТНС энерго Марий Эл ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tns-energo-mari-el.svg"
+  },
+  {
+    "name": "MKBD",
+    "description": "БПИФ МКБ Российские Див. Акции",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/credit-bank-of-moscow.svg"
+  },
+  {
+    "name": "MMMZ",
+    "description": "ОАО \"ММК-МЕТИЗ\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/magnitogorsk.svg"
+  },
+  {
+    "name": "MOEK",
+    "description": "ПАО \"МОЭК\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "MOEX",
+    "description": "ПАО Московская Биржа",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/moscow-exchange.svg"
+  },
+  {
+    "name": "MONY",
+    "description": "БПИФ АК БАРС Денежный рынок",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/mony-etf-money-market.svg"
+  },
+  {
+    "name": "MRKC",
+    "description": "ПАО \"Россети Центр\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosseti.svg"
+  },
+  {
+    "name": "MRKK",
+    "description": "Россети Сев. Кавказ - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosseti.svg"
+  },
+  {
+    "name": "MRKP",
+    "description": "Россети Центр и Приволжье - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosseti.svg"
+  },
+  {
+    "name": "MRKS",
+    "description": "Россети Сибирь - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosseti.svg"
+  },
+  {
+    "name": "MRKU",
+    "description": "Россети Урал (ПАО) - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/idgc-of-urals-jsc.svg"
+  },
+  {
+    "name": "MRKV",
+    "description": "Россети Волга - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosseti.svg"
+  },
+  {
+    "name": "MRKY",
+    "description": "Россети Юг (ПАО) - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosseti.svg"
+  },
+  {
+    "name": "MRKZ",
+    "description": "ПАО Россети Северо-Запад - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosseti.svg"
+  },
+  {
+    "name": "MRSB",
+    "description": "Мордовск.энергсбыт.комп.ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/mordovia-energy-re.svg"
+  },
+  {
+    "name": "MSNG",
+    "description": "МосЭнерго акции обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/mosenergo.svg"
+  },
+  {
+    "name": "MSRS",
+    "description": "ПАО Россети Моск.рег. - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosseti.svg"
+  },
+  {
+    "name": "MSTS",
+    "description": "АО \"Мостострой-11\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ao-mostostroy-11-ord.svg"
+  },
+  {
+    "name": "MSTT",
+    "description": "ПАО \"МОСТОТРЕСТ\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/mostotrest.svg"
+  },
+  {
+    "name": "MTLR",
+    "description": "Мечел ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/mechel.svg"
+  },
+  {
+    "name": "MTLRP",
+    "description": "Мечел ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/mechel.svg"
+  },
+  {
+    "name": "MTPVP",
+    "description": "АО \"Порт Ванино\" - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/vanino-port-ao-prf.svg"
+  },
+  {
+    "name": "MTSS",
+    "description": "Мобильные ТелеСистемы ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/mts.svg"
+  },
+  {
+    "name": "MVID",
+    "description": "\"М.видео\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/m-video.svg"
+  },
+  {
+    "name": "NAUK",
+    "description": "НПО Наука - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/npo-nauka.svg"
+  },
+  {
+    "name": "NFAZ",
+    "description": "НЕФАЗ ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/nefaz-ptc.svg"
+  },
+  {
+    "name": "NKHP",
+    "description": "НКХП ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/novorossiysk-grain.svg"
+  },
+  {
+    "name": "NKNC",
+    "description": "\"Нижнекамскнефтехим\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/nizhnekamskneftekhim.svg"
+  },
+  {
+    "name": "NKNCP",
+    "description": "\"Нижнекамскнефтехим\" ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/nizhnekamskneftekhim.svg"
+  },
+  {
+    "name": "NKSH",
+    "description": "Нижнекамскшина ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/nizhnekamskshina-c.svg"
+  },
+  {
+    "name": "NLMK",
+    "description": "ПАО \"НЛМК\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/novolipetsk.svg"
+  },
+  {
+    "name": "NMTP",
+    "description": "НМТП (ПАО) - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/novorossiysk-comme.svg"
+  },
+  {
+    "name": "NNSB",
+    "description": "ТНС энерго Нижний Новг.ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tns-energo-nn.svg"
+  },
+  {
+    "name": "NNSBP",
+    "description": "ТНС энерго Нижний Новг.ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tns-energo-nn.svg"
+  },
+  {
+    "name": "NOLE",
+    "description": "АО \"НЛЭ\"",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ao-novorosleseksport-ord.svg"
+  },
+  {
+    "name": "NOMP",
+    "description": "Новошип - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/novoship-pref.svg"
+  },
+  {
+    "name": "NOMPP",
+    "description": "Новошип - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/novoship-pref.svg"
+  },
+  {
+    "name": "NOVG",
+    "description": "АО \"ГР Великий Новгород\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "NSVZ",
+    "description": "Наука-Связь ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/nauka-telecom.svg"
+  },
+  {
+    "name": "NTZL",
+    "description": "НИТЕЛ - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/nitel.svg"
+  },
+  {
+    "name": "NVTK",
+    "description": "ПАО \"НОВАТЭК\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/novatek.svg"
+  },
+  {
+    "name": "OBLG",
+    "description": "БПИФ Российскиеоблигации УКВИМ",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/vtbr.svg"
+  },
+  {
+    "name": "OBNE",
+    "description": "ОБЬНЕФТЕГАЗГЕОЛОГИЯ - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/slavneft.svg"
+  },
+  {
+    "name": "OBNEP",
+    "description": "ОБЬНЕФТЕГАЗГЕОЛОГИЯ - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/slavneft.svg"
+  },
+  {
+    "name": "OGKB",
+    "description": "ОГК-2 ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ogk-2.svg"
+  },
+  {
+    "name": "OKEY",
+    "description": "ГДР OKEY Group S.A. ORD SHS",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/o-key-sa.svg"
+  },
+  {
+    "name": "OMOG",
+    "description": "АО \"Омскоблгаз\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/omskoblgaz-ord.svg"
+  },
+  {
+    "name": "OMZZP",
+    "description": "ап\"Объединён. маш. заводы\"",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/united-heavy-mach.svg"
+  },
+  {
+    "name": "OPNB",
+    "description": "БПИФ Открытие - Облигации РФ",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/opnr-etf-ru-stocks.svg"
+  },
+  {
+    "name": "OPNR",
+    "description": "БПИФ Открытие - Акции РФ",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/opnr-etf-ru-stocks.svg"
+  },
+  {
+    "name": "ORUP",
+    "description": "ПАО \"ОРГ\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/or-group.svg"
+  },
+  {
+    "name": "OZON",
+    "description": "АДР Ozon Holdings PLC ORD SHS",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ozon.svg"
+  },
+  {
+    "name": "OZPH",
+    "description": "Озон Фармацевтика",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ozon-pharmaceuticals.svg"
+  },
+  {
+    "name": "PAZA",
+    "description": "Павловский автобус ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/pavlovo-bus.svg"
+  },
+  {
+    "name": "PBDT",
+    "description": "АО \"ПОБЕДИТ\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ao-pobedit-ord.svg"
+  },
+  {
+    "name": "PHOR",
+    "description": "ФосАгро ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/phosagro.svg"
+  },
+  {
+    "name": "PIKK",
+    "description": "ПИК СЗ (ПАО) - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/pik-group.svg"
+  },
+  {
+    "name": "PLUS",
+    "description": "АО \"Плюс\" - обыкн.",
+    "icon_url": null
+  },
+  {
+    "name": "PLZL",
+    "description": "Полюс ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/polyus.svg"
+  },
+  {
+    "name": "PMSB",
+    "description": "\"Пермэнергосбыт\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/perm-energy-supply.svg"
+  },
+  {
+    "name": "PMSBP",
+    "description": "\"Пермэнергосбыт\" ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/perm-energy-supply.svg"
+  },
+  {
+    "name": "POSI",
+    "description": "Группа Позитив - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/positive-gp.svg"
+  },
+  {
+    "name": "PRFN",
+    "description": "ТЕПЛАНТ восток (ПАО) - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/chelyabinsk-plant.svg"
+  },
+  {
+    "name": "PRIE",
+    "description": "БПИФ РСХБ-Облигации ИЭсДжи",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/esgr-etf-rshb-moex-rspp-vectr.svg"
+  },
+  {
+    "name": "PRIM",
+    "description": "ПАО \"ПМП\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/pao-prim-shipp-ord.svg"
+  },
+  {
+    "name": "PRMB",
+    "description": "АКБ \"Приморье\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/primorye-comm-bank.svg"
+  },
+  {
+    "name": "PRMD",
+    "description": "ПРОМОМЕД",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/promomed.svg"
+  },
+  {
+    "name": "PSGM",
+    "description": "БПИФ ПСБ Золотой рынок",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/psmm-etf-mfi-psb-money-market.svg"
+  },
+  {
+    "name": "PSMM",
+    "description": "БПИФ РФИ ПСБ–Денежный рынок",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/psmm-etf-mfi-psb-money-market.svg"
+  },
+  {
+    "name": "PSRB",
+    "description": "ПСБ Рублевые облигации",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/psrb-etf-ruble-bonds.svg"
+  },
+  {
+    "name": "QIWI",
+    "description": "NanduQ PLC",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/qiwi.svg"
+  },
+  {
+    "name": "RAES",
+    "description": "АО \"РЭС\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ao-regio-elektrich-seti-ord.svg"
+  },
+  {
+    "name": "RAGR",
+    "description": "Группа Русагро",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rusagro.svg"
+  },
+  {
+    "name": "RASP",
+    "description": "ПАО Распадская - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/raspadskaya.svg"
+  },
+  {
+    "name": "RBCM",
+    "description": "ГК РБК ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rbc.svg"
+  },
+  {
+    "name": "RBTY",
+    "description": "Развитие БиоТехнологий - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rbt.svg"
+  },
+  {
+    "name": "RDRB",
+    "description": "РоссийскийДорож Банк ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosdorbank.svg"
+  },
+  {
+    "name": "RENI",
+    "description": "Ренессанс Страхование - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/renaissance-insura.svg"
+  },
+  {
+    "name": "RGSS",
+    "description": "Росгосстрах СК ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosgosstrakh-ins.svg"
+  },
+  {
+    "name": "RKKE",
+    "description": "РКК Энергия им.С.П.Королева - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/energia-rocket-and.svg"
+  },
+  {
+    "name": "RNCU",
+    "description": "ПАО \"Курганнефтепродукт\" - обыкн.",
+    "icon_url": null
+  },
+  {
+    "name": "RNCUP",
+    "description": "ПАО \"Курганнефтепродукт\" - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/t-plus.svg"
+  },
+  {
+    "name": "RNFT",
+    "description": "РуссНефть НК ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/russneft.svg"
+  },
+  {
+    "name": "ROLO",
+    "description": "\"Русолово\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rusolovo.svg"
+  },
+  {
+    "name": "ROSN",
+    "description": "ПАО НК Роснефть",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosneft.svg"
+  },
+  {
+    "name": "ROST",
+    "description": "РОСИНТЕР РЕСТОРАНТС (ПАО)",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosinter-restauran.svg"
+  },
+  {
+    "name": "RSHU",
+    "description": "БПИФ РСХБ Корп обл смарт бета",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/esgr-etf-rshb-moex-rspp-vectr.svg"
+  },
+  {
+    "name": "RTBGP",
+    "description": "ПАО \"ГР Ростов-на-Дону\" - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "RTGZ",
+    "description": "Газпром газорасп Р-н-Д ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "RTKM",
+    "description": "Ростелеком (ПАО) ао.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rostelecom.svg"
+  },
+  {
+    "name": "RTKMP",
+    "description": "Ростелеком (ПАО) - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rostelecom.svg"
+  },
+  {
+    "name": "RTLM",
+    "description": "ПАО \"Ростсельмаш\" - обыкн.",
+    "icon_url": null
+  },
+  {
+    "name": "RTSB",
+    "description": "ТНС энерго Ростов. ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tns-energo-rostov.svg"
+  },
+  {
+    "name": "RTSBP",
+    "description": "ТНС энерго Ростов. ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tns-energo-rostov.svg"
+  },
+  {
+    "name": "RUAL",
+    "description": "РУСАЛ ОК МКПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rusal.svg"
+  },
+  {
+    "name": "RUSI",
+    "description": "РУСС-ИНВЕСТ ИК ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/investment-co-ic.svg"
+  },
+  {
+    "name": "RZOG",
+    "description": "АО \"ГР Рязанская область\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "RZSB",
+    "description": "\"Рязанская энергосб.комп\" ПАО",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ryazanenergosbyt.svg"
+  },
+  {
+    "name": "SAGO",
+    "description": "Самараэнерго (ПАО) - - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/samaraenergo.svg"
+  },
+  {
+    "name": "SAGOP",
+    "description": "Самараэнерго (ПАО) - - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/samaraenergo.svg"
+  },
+  {
+    "name": "SARE",
+    "description": "Саратовэнерго(ПАО) - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/saratovenergo.svg"
+  },
+  {
+    "name": "SAREP",
+    "description": "Саратовэнерго(ПАО) - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/saratovenergo.svg"
+  },
+  {
+    "name": "SARN",
+    "description": "Саратовнефтепродукт - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosneft.svg"
+  },
+  {
+    "name": "SARNP",
+    "description": "ПАО \"Саратовнефтепродукт\" - прив.",
+    "icon_url": null
+  },
+  {
+    "name": "SBBC",
+    "description": "БПИФ Первая Голубые фишки",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBBY",
+    "description": "БПИФ Фонд Инструменты в юанях",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBCB",
+    "description": "БПИФ Первая Фонд валютн. облиг",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBCN",
+    "description": "БПИФ Первая Сберегат. в юанях",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBCS",
+    "description": "БПИФ Первая Консерватив смарт",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBDS",
+    "description": "БПИФ Первая Фонд Моя цель 2045",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBEN",
+    "description": "АО \"Новосибирскэнергосбыт\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/novosibirskenergosbyt-prf.svg"
+  },
+  {
+    "name": "SBENP",
+    "description": "АО \"Новосибирскэнергосбыт\" - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/novosibirskenergosbyt-prf.svg"
+  },
+  {
+    "name": "SBER",
+    "description": "Сбербанк России ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sberbank.svg"
+  },
+  {
+    "name": "SBERP",
+    "description": "Сбербанк России ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sberbank.svg"
+  },
+  {
+    "name": "SBFR",
+    "description": "БПИФ Первая Облигации флоатеры",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBGB",
+    "description": "БПИФ Первая Гос. облигации",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBGD",
+    "description": "БПИФ Первая Доступное золото",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBHI",
+    "description": "БПИФ Первая Халяльные инвест",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBLB",
+    "description": "БПИФПервая Долгосроч.гособлиг.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBMM",
+    "description": "БПИФ Первая Сберегательный",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBMX",
+    "description": "БПИФ Первая Топ Рос. акций",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBPL",
+    "description": "АО \"ЭнергосбыТ Плюс\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/t-plus.svg"
+  },
+  {
+    "name": "SBPS",
+    "description": "БПИФ Первая Фонд Моя цель 2035",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBRB",
+    "description": "БПИФ Первая Корп облигации",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBRI",
+    "description": "БПИФ Первая Ответствен инвест",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBRS",
+    "description": "БПИФ Первая Осторожный смарт",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBSC",
+    "description": "БПИФ Первая Акции ср.и мал.кап",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SBWS",
+    "description": "БПИФ Первая Взвешенный смарт",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbws-etf-weighted-smart.svg"
+  },
+  {
+    "name": "SCFT",
+    "description": "БПИФ Технологии будущего",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/scft-etf-future-technologies.svg"
+  },
+  {
+    "name": "SCLI",
+    "description": "БПИФ Ликвидный",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/moscow-exchange.svg"
+  },
+  {
+    "name": "SELG",
+    "description": "ПАО \"Селигдар\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/seligdar.svg"
+  },
+  {
+    "name": "SEMP",
+    "description": "ОАО \"СМП\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/northern-shipping-company-prf.svg"
+  },
+  {
+    "name": "SEMPP",
+    "description": "ОАО \"СМП\" - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/northern-shipping-company-prf.svg"
+  },
+  {
+    "name": "SFIN",
+    "description": "ЭсЭфАй ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sfi.svg"
+  },
+  {
+    "name": "SGAZ",
+    "description": "АО \"Саратовгаз\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "SGZH",
+    "description": "Сегежа - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/segezha-group.svg"
+  },
+  {
+    "name": "SIBN",
+    "description": "Газпром нефть ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "SIPO",
+    "description": "БПИФ Первая Индекс IPO",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sbri-etf-responsible-invest.svg"
+  },
+  {
+    "name": "SLAV",
+    "description": "ПАО \"НГК \"Славнефть\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/slavneft.svg"
+  },
+  {
+    "name": "SLEN",
+    "description": "ПАО \"Сахалинэнерго\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sakhalinenergo.svg"
+  },
+  {
+    "name": "SMCF",
+    "description": "БПИФ СОЛИД Денежный поток",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/smcf-etf-cash-flow.svg"
+  },
+  {
+    "name": "SMLT",
+    "description": "ГК Самолет - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/samolet-group.svg"
+  },
+  {
+    "name": "SMNF",
+    "description": "Смоленскнефтепродукт - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosneft.svg"
+  },
+  {
+    "name": "SMNFP",
+    "description": "Смоленскнефтепродукт - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosneft.svg"
+  },
+  {
+    "name": "SMOG",
+    "description": "АО \"ГР Смоленск\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "SNGS",
+    "description": "Сургутнефтегаз ПАО акции об.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/surgutneftegas.svg"
+  },
+  {
+    "name": "SNGSP",
+    "description": "Сургутнефтегаз ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/surgutneftegas.svg"
+  },
+  {
+    "name": "SNTZ",
+    "description": "АО \"СИНТЗ\" - обыкн.",
+    "icon_url": null
+  },
+  {
+    "name": "SOFL",
+    "description": "Софтлайн - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/softline.svg"
+  },
+  {
+    "name": "SPBE",
+    "description": "СПБ Биржа - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/spb.svg"
+  },
+  {
+    "name": "SROG",
+    "description": "ГазСаратов.обл",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "STGR",
+    "description": "ОАО \"Светлоградагромаш\" - обыкн.",
+    "icon_url": null
+  },
+  {
+    "name": "STKG",
+    "description": "АО \"Газпром ГР Ставрополь\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "STKGP",
+    "description": "АО \"ГР Ставрополь\" - прив.",
+    "icon_url": null
+  },
+  {
+    "name": "STSB",
+    "description": "Ставрополэнергосбыт ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/stavropolenergosby.svg"
+  },
+  {
+    "name": "STSBP",
+    "description": "Ставрополэнергосбыт ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/stavropolenergosby.svg"
+  },
+  {
+    "name": "SUGB",
+    "description": "БПИФ МКБ – ОФЗ 1-3 г",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/credit-bank-of-moscow.svg"
+  },
+  {
+    "name": "SUMZ",
+    "description": "ПАО \"СУМЗ\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ao-sumz-ord.svg"
+  },
+  {
+    "name": "SVAV",
+    "description": "ПАО \"СОЛЛЕРС\"",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sollers-auto.svg"
+  },
+  {
+    "name": "SVCB",
+    "description": "Совкомбанк - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sovcombank.svg"
+  },
+  {
+    "name": "SVET",
+    "description": "Светофор Групп - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/svetofor-group.svg"
+  },
+  {
+    "name": "SVETP",
+    "description": "Светофор Групп - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/svetofor-group.svg"
+  },
+  {
+    "name": "SVOG",
+    "description": "АО \"ГР Екатеринбург\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "SVTZ",
+    "description": "АО \"СТЗ\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tmk-pao.svg"
+  },
+  {
+    "name": "T",
+    "description": "Т-Технологии МКПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tcs-group-holding.svg"
+  },
+  {
+    "name": "TASB",
+    "description": "\"Тамбов.энергсбыт.комп.\"ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tambov-power-suppl.svg"
+  },
+  {
+    "name": "TASBP",
+    "description": "ап\"Тамбов.энергсбыт.комп.\"ПАО",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tambov-power-suppl.svg"
+  },
+  {
+    "name": "TATN",
+    "description": "ПАО \"Татнефть\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tatneft.svg"
+  },
+  {
+    "name": "TATNP",
+    "description": "ПАО \"Татнефть\" - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tatneft.svg"
+  },
+  {
+    "name": "TBEU",
+    "description": "БПИФ ТКАПИТАЛ ОБЛИГАЦИИ Е",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tcs-group-holding.svg"
+  },
+  {
+    "name": "TBRU",
+    "description": "БПИФ Т-Капитал ОБЛИГАЦИИ",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tcs-group-holding.svg"
+  },
+  {
+    "name": "TDIV",
+    "description": "Т-Капитал ДИВИДЕНДНЫЕ АКЦИИ",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tcs-group-holding.svg"
+  },
+  {
+    "name": "TEUR",
+    "description": "БПИФ ТКАПИТАЛ ВЕЧНЫЙ ПОРТФ Е",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tcs-group-holding.svg"
+  },
+  {
+    "name": "TGKA",
+    "description": "ПАО \"ТГК-1\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tgc-1.svg"
+  },
+  {
+    "name": "TGKB",
+    "description": "ПАО \"ТГК-2\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/territorial-gener.svg"
+  },
+  {
+    "name": "TGKBP",
+    "description": "ап ПАО \"ТГК-2\"",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/territorial-gener.svg"
+  },
+  {
+    "name": "TGKJ",
+    "description": "Форвард Энерго ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/forward-energy.svg"
+  },
+  {
+    "name": "TGKN",
+    "description": "ПАО \"ТГК-14\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tgc-14.svg"
+  },
+  {
+    "name": "TGLD",
+    "description": "БПИФ Т-Капитал ЗОЛОТО",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tcs-group-holding.svg"
+  },
+  {
+    "name": "TITR",
+    "description": "Т-Капитал Российские Технологи",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tcs-group-holding.svg"
+  },
+  {
+    "name": "TLCB",
+    "description": "Т-КАПИТАЛ ВАЛЮТНЫЕ ОБЛИГАЦИИ",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tcs-group-holding.svg"
+  },
+  {
+    "name": "TMON",
+    "description": "T-КАПИТАЛ ДЕНЕЖНЫЙ РЫНОК",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tcs-group-holding.svg"
+  },
+  {
+    "name": "TMOS",
+    "description": "БПИФ Т-КАПИТАЛ ИНДЕКС МОСБИРЖИ",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tcs-group-holding.svg"
+  },
+  {
+    "name": "TNSE",
+    "description": "ПАО ГК \"ТНС энерго\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tns-energo-public.svg"
+  },
+  {
+    "name": "TNYA",
+    "description": "АО \"РН-Ярославль\" - обыкн.",
+    "icon_url": null
+  },
+  {
+    "name": "TOFZ",
+    "description": "БПИФ Т-Капитал ОФЗ",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tcs-group-holding.svg"
+  },
+  {
+    "name": "TOGZ",
+    "description": "АО \"ГР Тамбов\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "TORS",
+    "description": "ПАО \"Россети Томск\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tomsk-distribution.svg"
+  },
+  {
+    "name": "TORSP",
+    "description": "ап ПАО \"Россети Томск\"",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tomsk-distribution.svg"
+  },
+  {
+    "name": "TPAY",
+    "description": "Т-Капитал Пассивный Доход",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tpay-etf-t-capital-passive.svg"
+  },
+  {
+    "name": "TRMK",
+    "description": "ПАО ТМК",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tmk-pao.svg"
+  },
+  {
+    "name": "TRND",
+    "description": "БПИФ Т-Капитал Трендовые акции",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tcs-group-holding.svg"
+  },
+  {
+    "name": "TRNFP",
+    "description": "Транснефть ПАО акц.пр.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/transneft.svg"
+  },
+  {
+    "name": "TRUR",
+    "description": "БПИФ Т-Кап ВЕЧНЫЙ ПОРТФ РУБ",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tcs-group-holding.svg"
+  },
+  {
+    "name": "TTLK",
+    "description": "\"Таттелеком\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tattelecom.svg"
+  },
+  {
+    "name": "TUMN",
+    "description": "ПАО \"ТМ\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/pao-tyumen-motorostroi-ord.svg"
+  },
+  {
+    "name": "TUMNP",
+    "description": "ПАО \"ТМ\" - прив.",
+    "icon_url": null
+  },
+  {
+    "name": "TUOG",
+    "description": "Газпром газорасп. Тула - обыкн.",
+    "icon_url": null
+  },
+  {
+    "name": "TUSD",
+    "description": "БПИФ ТКАПИТАЛ ВЕЧНЫЙ ПОРТФ Д",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tcs-group-holding.svg"
+  },
+  {
+    "name": "TUZA",
+    "description": "Туймаз. завод автобетоновозов",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tuimazinskiy-zavod.svg"
+  },
+  {
+    "name": "TYPMP",
+    "description": "ПАО \"Тяжпрессмаш\" - прив.",
+    "icon_url": null
+  },
+  {
+    "name": "TZEP",
+    "description": "Электроприбор - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/elektropribor-pref.svg"
+  },
+  {
+    "name": "TZEPP",
+    "description": "Электроприбор - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/elektropribor-pref.svg"
+  },
+  {
+    "name": "UDMN",
+    "description": "Удмуртнефть - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosneft.svg"
+  },
+  {
+    "name": "UELM",
+    "description": "АО \"Уралэлектромедь\" - обыкн.",
+    "icon_url": null
+  },
+  {
+    "name": "UFOSP",
+    "description": "Уфаоргсинтез - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ufaorgsintez-pref.svg"
+  },
+  {
+    "name": "UGLD",
+    "description": "ЮГК",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ugc.svg"
+  },
+  {
+    "name": "UKUZ",
+    "description": "Южный Кузбасс ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/southern-kuzbass-c.svg"
+  },
+  {
+    "name": "ULEN",
+    "description": "АО \"Ульяновскэнерго\" - обыкн.",
+    "icon_url": null
+  },
+  {
+    "name": "UNAC",
+    "description": "Об.авиастр.корп. ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/united-aircraft-co.svg"
+  },
+  {
+    "name": "UNKL",
+    "description": "Южно-Уральский никел. комб. - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/southern-urals-nic.svg"
+  },
+  {
+    "name": "UPRO",
+    "description": "Юнипро ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/unipro.svg"
+  },
+  {
+    "name": "URAG",
+    "description": "ОАО \"Ураласбест\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/pjsc-uralasbest-ord.svg"
+  },
+  {
+    "name": "URAL",
+    "description": "ОАО АК \"Уральск авиалинии\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ao-ural-skiye-avialinii-ord.svg"
+  },
+  {
+    "name": "URKZ",
+    "description": "ПАО \"Уральская кузница\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/urals-stampings.svg"
+  },
+  {
+    "name": "USBN",
+    "description": "БАНК УРАЛСИБ ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/bank-uralsib.svg"
+  },
+  {
+    "name": "UTAR",
+    "description": "Авиакомпания \"ЮТэйр\" (ПАО) - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/utair-aviation.svg"
+  },
+  {
+    "name": "UWGN",
+    "description": "ПАО НПК ОВК - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/united-wagon-company.svg"
+  },
+  {
+    "name": "VARNP",
+    "description": "ПАО \"Варьеганнефть\" - прив.",
+    "icon_url": null
+  },
+  {
+    "name": "VAZZP",
+    "description": "ОАО \"ВАЗ\" - прив.",
+    "icon_url": null
+  },
+  {
+    "name": "VDOK",
+    "description": "Вышневолоцкий МДОК - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/fsk-ees.svg"
+  },
+  {
+    "name": "VEON-RX",
+    "description": "VEON Ltd. ORD SHS",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/veon.svg"
+  },
+  {
+    "name": "VFLT",
+    "description": "АО \"Волга-флот\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/volga-shipping-prf.svg"
+  },
+  {
+    "name": "VFLTP",
+    "description": "АО \"Волга-флот\" - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/volga-shipping-prf.svg"
+  },
+  {
+    "name": "VGSB",
+    "description": "\"Волгоград.энергосбыткомп\" ПАО",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/volgogradenergosby.svg"
+  },
+  {
+    "name": "VGSBP",
+    "description": "\"Волгоград.энергосбыткомп\" ПАО",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/volgogradenergosby.svg"
+  },
+  {
+    "name": "VJGZ",
+    "description": "ННК-Варьеганнефтегаз ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/nnk-varyogannefteg.svg"
+  },
+  {
+    "name": "VJGZP",
+    "description": "ННК-Варьеганнефтегаз ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/nnk-varyogannefteg.svg"
+  },
+  {
+    "name": "VKCO",
+    "description": "Международная компания ПАО ВК",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/mail-ru-group.svg"
+  },
+  {
+    "name": "VLHZ",
+    "description": "Владимирский химич.з-д(ПАО) - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/vladimir-chemical.svg"
+  },
+  {
+    "name": "VMTP",
+    "description": "ПАО \"ВМТП\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/pao-comm-port-of-vlad-ord.svg"
+  },
+  {
+    "name": "VNIP",
+    "description": "АО \"ВНИПИгаздобыча\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/vnipigazdobycha-ord.svg"
+  },
+  {
+    "name": "VNIPP",
+    "description": "АО \"ВНИПИгаздобыча\" - прив.",
+    "icon_url": null
+  },
+  {
+    "name": "VOGZ",
+    "description": "Газпром газораспр. Воронеж",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "VRSB",
+    "description": "ТНС энерго Воронеж ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tns-energo-voronez.svg"
+  },
+  {
+    "name": "VRSBP",
+    "description": "ТНС энерго Воронеж ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tns-energo-voronez.svg"
+  },
+  {
+    "name": "VSEH",
+    "description": "ВИ.ру",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/viru.svg"
+  },
+  {
+    "name": "VSMO",
+    "description": "Корп. ВСМПО-АВИСМА (ПАО) - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/vsmpo-avisma.svg"
+  },
+  {
+    "name": "VSYD",
+    "description": "Выборгский Суд.Завод ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/vyborg-shipyard-p.svg"
+  },
+  {
+    "name": "VSYDP",
+    "description": "Выборгский Суд.Завод ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/vyborg-shipyard-p.svg"
+  },
+  {
+    "name": "VTBR",
+    "description": "ПАО Банк ВТБ - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/vtbr.svg"
+  },
+  {
+    "name": "VTGK",
+    "description": "\"Т Плюс\" ПАО ао.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/t-plus.svg"
+  },
+  {
+    "name": "WILD",
+    "description": "ДОХОДЪ. Анализ акций",
+    "icon_url": null
+  },
+  {
+    "name": "WTCM",
+    "description": "\"Центр междун. торговли\"ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/world-trade-center.svg"
+  },
+  {
+    "name": "WTCMP",
+    "description": "\"Центр междун. торговли\"ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/world-trade-center.svg"
+  },
+  {
+    "name": "WUSH",
+    "description": "ВУШ Холдинг - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/whoosh.svg"
+  },
+  {
+    "name": "X5",
+    "description": "Корпоративный центр ИКС 5",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/x5-corporate-center.svg"
+  },
+  {
+    "name": "YAKG",
+    "description": "Якутская топл.-энерг. комп. - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/yakutsk-fuel-and-ene.svg"
+  },
+  {
+    "name": "YDEX",
+    "description": "МКПАО ЯНДЕКС",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/yandex.svg"
+  },
+  {
+    "name": "YKEN",
+    "description": "АК \"Якутскэнерго\" (ПАО) - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/yakutskenergo.svg"
+  },
+  {
+    "name": "YKENP",
+    "description": "АК \"Якутскэнерго\" (ПАО) - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/yakutskenergo.svg"
+  },
+  {
+    "name": "YROG",
+    "description": "АО \"Газпром ГР Ярославль\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
+  },
+  {
+    "name": "YRSB",
+    "description": "ТНС энерго Ярославль ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tns-energo-yarosav.svg"
+  },
+  {
+    "name": "YRSBP",
+    "description": "ТНС энерго Ярославль ПАО - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tns-energo-yarosav.svg"
+  },
+  {
+    "name": "YUAN",
+    "description": "БПИФ Облигации в юанях",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/yuan-bonds-etf.svg"
+  },
+  {
+    "name": "ZAYM",
+    "description": "Займер - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/zaymer.svg"
+  },
+  {
+    "name": "ZHDY",
+    "description": "АО \"АК \"ЖДЯ\" - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/ao-railways-of-yakutia-ord.svg"
+  },
+  {
+    "name": "ZILL",
+    "description": "Завод им. И.А.Лихачева ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/likhachov-plant-pj.svg"
+  },
+  {
+    "name": "ZILLP",
+    "description": "АМО ЗИЛ - прив.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/likhachov-plant-pj.svg"
+  },
+  {
+    "name": "ZVEZ",
+    "description": "ЗВЕЗДА ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/zvezda.svg"
+  }
+]
