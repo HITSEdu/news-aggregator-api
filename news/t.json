@@ -1,0 +1,106 @@
+[
+  {
+    "ticker": "T",
+    "source": "markettwits",
+    "summary_text": "19-21 июня в центре Санкт-Петербурга пройдёт фестиваль Т-Двор. Третий день посвятят деньгам и инвестициям – программа как для опытных инвесторов, так и начинающих.",
+    "price_difference": "0%",
+    "is_green": true,
+    "timestamp": "2025-06-04T16:12:48Z"
+  },
+  {
+    "ticker": "T",
+    "source": "markettwits",
+    "summary_text": "«Т-Технологии» не исключают коммерческого партнерства с «Яндексом», в том числе в части продуктов.",
+    "price_difference": "+1.2%",
+    "is_green": true,
+    "timestamp": "2025-06-04T04:38:13Z"
+  },
+  {
+    "ticker": "T",
+    "source": "markettwits",
+    "summary_text": "\"Т-ТЕХНОЛОГИИ\" НЕ ВИДЯТ РИСКОВ ПРИОСТАНОВКИ ЕЖЕКВАРТАЛЬНОЙ ВЫПЛАТЫ ДИВИДЕНДОВ.",
+    "price_difference": "+0.8%",
+    "is_green": true,
+    "timestamp": "2025-06-03T15:52:54Z"
+  },
+  {
+    "ticker": "T",
+    "source": "markettwits",
+    "summary_text": "\"Т-Технологии\" изучают потенциальные M&A для повышения стоимости группы, но пока конкретных сделок нет.",
+    "price_difference": "+0.5%",
+    "is_green": true,
+    "timestamp": "2025-06-02T13:27:43Z"
+  },
+  {
+    "ticker": "T",
+    "source": "markettwits",
+    "summary_text": "Фонд «Венчурные инвестиции 1» под управлением Т-Капитала закрыл первую сделку, получив 12,5% онлайн-сервиса бытовых услуг Airo.",
+    "price_difference": "+1.0%",
+    "is_green": true,
+    "timestamp": "2025-05-30T14:01:08Z"
+  },
+  {
+    "ticker": "T",
+    "source": "markettwits",
+    "summary_text": "Чистая прибыль Т-Банка за 4 месяца по РСБУ снизилась в 2,9 раза - до 8,74 млрд руб.",
+    "price_difference": "-3.5%",
+    "is_green": false,
+    "timestamp": "2025-05-29T10:51:33Z"
+  },
+  {
+    "ticker": "T",
+    "source": "markettwits",
+    "summary_text": "Т-Банк выпустил первый в стране ЦФА, привязанный к стоимости BTC.",
+    "price_difference": "+2.1%",
+    "is_green": true,
+    "timestamp": "2025-05-28T18:03:20Z"
+  },
+  {
+    "ticker": "T",
+    "source": "markettwits",
+    "summary_text": "СП «Т-Технологий» и «Интерроса» стало владельцем 9,95% акций Яндекса.",
+    "price_difference": "+1.7%",
+    "is_green": true,
+    "timestamp": "2025-05-27T11:30:46Z"
+  },
+  {
+    "ticker": "T",
+    "source": "markettwits",
+    "summary_text": "Т-ТЕХНОЛОГИИ СЕЙЧАС НЕ ПЛАНИРУЮТ SPO ДЛЯ ПОПОЛНЕНИЯ КАПИТАЛА, НО БУДУТ СМОТРЕТЬ НА РЫНОК.",
+    "price_difference": "0%",
+    "is_green": true,
+    "timestamp": "2025-05-22T10:29:24Z"
+  },
+  {
+    "ticker": "T",
+    "source": "markettwits",
+    "summary_text": "Т-ТЕХНОЛОГИИ ПОДТВЕРЖДАЮТ ПЛАНЫ РАСПРЕДЕЛЯТЬ ДО 30% ПРИБЫЛИ НА ДИВИДЕНДЫ.",
+    "price_difference": "+1.5%",
+    "is_green": true,
+    "timestamp": "2025-05-22T10:02:08Z"
+  },
+  {
+    "ticker": "T",
+    "source": "markettwits",
+    "summary_text": "\"Т-ТЕХНОЛОГИИ\" В I КВ. НАРАСТИЛИ ЧИСТУЮ ПРИБЫЛЬ ПО МСФО НА 50% - ДО 33,5 МЛРД РУБ.",
+    "price_difference": "+4.2%",
+    "is_green": true,
+    "timestamp": "2025-05-22T07:00:54Z"
+  },
+  {
+    "ticker": "T",
+    "source": "markettwits",
+    "summary_text": "Т-Банк запустил программу долгосрочных сбережений с доходностью до 38% в первый год.",
+    "price_difference": "+2.3%",
+    "is_green": true,
+    "timestamp": "2025-05-21T13:37:40Z"
+  },
+  {
+    "ticker": "T",
+    "source": "markettwits",
+    "summary_text": "Т-Банк разработал AI-ассистента в сфере кибербезопасности, экономящего 1 млрд руб. в год.",
+    "price_difference": "+1.8%",
+    "is_green": true,
+    "timestamp": "2025-05-21T08:51:00Z"
+  }
+]
