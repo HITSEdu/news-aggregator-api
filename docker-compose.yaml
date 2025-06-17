@@ -20,9 +20,10 @@ services:
     environment:
       POSTGRES_USER: postgres      # Имя пользователя по умолчанию
       POSTGRES_PASSWORD: postgres  # Пароль (в продакшене используйте сложный!)
-      POSTGRES_DB: mydatabase      # Имя базы данных по умолчанию
+      POSTGRES_DB: appdb
     volumes:
-      - postgres_data:/var/lib/postgresql/data  # Сохраняем данные между перезапусками
+      - postgres_data:/var/lib/postgresql/data
+      - ./init_db:/docker-entrypoint-initdb.d  # Вот эта строка важна
     ports:
       - "5432:5432"  # Пробрасываем порт наружу (host:container)
     restart: unless-stopped  # Автоматически перезапускать контейнер при падении

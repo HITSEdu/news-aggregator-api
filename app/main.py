@@ -1,12 +1,41 @@
 from fastapi import FastAPI, APIRouter
-from fastapi.openapi.docs import get_swagger_ui_html
+from app.routes.auth import router as auth_router
+from contextlib import asynccontextmanager
+from app.models.database import engine, create_tables
 
-app = FastAPI()
 
-@app.get("/")
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # При запуске приложения
+    print("Creating tables...")
+    await create_tables()
+    yield
+    # При остановке приложения
+    print("Disposing engine...")
+    await engine.dispose()
+
+
+# Создаем приложение с включенной документацией
+app = FastAPI(
+    title="My API",
+    description="API Documentation",
+    version="1.0.0",
+    docs_url="/docs",  # Включить Swagger по /docs (это значение по умолчанию)
+    redoc_url="/redoc",  # Включить ReDoc по /redoc (опционально)
+    lifespan=lifespan,
+)
+
+router = APIRouter()
+
+# Подключаем роутеры
+router.include_router(auth_router)
+
+
+# Корневой эндпоинт
+@router.get("/")
 async def get_root():
     return {"message": "hello world"}
 
-@app.get("/docs")
-async def get_documentation():
-    return get_swagger_ui_html(openapi_url="/openapi.json", title="docs")
+
+# Подключаем основной роутер к приложению
+app.include_router(router)
