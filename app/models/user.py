@@ -1,7 +1,6 @@
-from datetime import datetime
-from sqlalchemy import Column, Integer, String, Boolean, DateTime, func
-from sqlalchemy.ext.declarative import declarative_base
 from passlib.context import CryptContext
+from sqlalchemy import Column, Integer, String, DateTime, func
+
 from app.models.database import Base
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
@@ -14,3 +13,4 @@ class User(Base):
     email = Column(String(255), unique=True, index=True, nullable=False)
     hashed_password = Column(String(255), nullable=False)
     created_at = Column(DateTime, server_default=func.now())
+    tickers = Column(String(255), nullable=False, server_default="")

@@ -1,10 +1,10 @@
 from datetime import datetime, timedelta
 
-from app.models.price import Price
-from app.models.ticker import Ticker
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import selectinload
+
+from app.models.price import Price
 
 
 async def get_price_difference(db: AsyncSession, timestamp: datetime):

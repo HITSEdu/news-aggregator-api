@@ -1,0 +1,98 @@
+[
+  {
+    "ticker": "GAZP",
+    "source": "markettwits",
+    "summary_text": "Акции Газпрома выросли на 3%.",
+    "price_difference": "+3%",
+    "is_green": true,
+    "timestamp": "2025-06-17T14:06:40+00:00"
+  },
+  {
+    "ticker": "GAZP",
+    "source": "markettwits",
+    "summary_text": "Обсуждаемая индексация цен на газ для промышленности на 10% дважды в год может повысить доходы Газпрома, но вызвать рост цен на электроэнергию.",
+    "price_difference": "N/A",
+    "is_green": true,
+    "timestamp": "2025-06-17T05:05:18+00:00"
+  },
+  {
+    "ticker": "GAZP",
+    "source": "markettwits",
+    "summary_text": "Американский инвестор Стивен Линч планирует приобрести 'Северный поток — 2', что потенциально может возобновить поставки газа в Европу.",
+    "price_difference": "N/A",
+    "is_green": true,
+    "timestamp": "2025-06-15T17:25:02+00:00"
+  },
+  {
+    "ticker": "GAZP",
+    "source": "markettwits",
+    "summary_text": "Газпром предложил индексацию тарифов для промышленных потребителей дважды в год — решение пока не принято.",
+    "price_difference": "N/A",
+    "is_green": true,
+    "timestamp": "2025-06-10T14:11:01+00:00"
+  },
+  {
+    "ticker": "GAZP",
+    "source": "markettwits",
+    "summary_text": "Акции Газпрома устойчивы к новостям о 18-м пакете санкций ЕС.",
+    "price_difference": "N/A",
+    "is_green": true,
+    "timestamp": "2025-06-10T14:08:25+00:00"
+  },
+  {
+    "ticker": "GAZP",
+    "source": "markettwits",
+    "summary_text": "18-й пакет санкций ЕС включает запрет на использование 'Северных потоков' и меры против энергетического сектора РФ.",
+    "price_difference": "N/A",
+    "is_green": false,
+    "timestamp": "2025-06-10T13:05:55+00:00"
+  },
+  {
+    "ticker": "GAZP",
+    "source": "markettwits",
+    "summary_text": "Суд запретил Нафтогазу исполнять решения по транзиту газа через Украину в рамках иска Газпрома.",
+    "price_difference": "N/A",
+    "is_green": true,
+    "timestamp": "2025-06-10T12:23:25+00:00"
+  },
+  {
+    "ticker": "GAZP",
+    "source": "markettwits",
+    "summary_text": "Акции Газпрома достигли месячного минимума.",
+    "price_difference": "N/A",
+    "is_green": false,
+    "timestamp": "2025-06-09T12:51:24+00:00"
+  },
+  {
+    "ticker": "GAZP",
+    "source": "markettwits",
+    "summary_text": "Газпром подал новый иск к Нафтогазу Украины.",
+    "price_difference": "N/A",
+    "is_green": true,
+    "timestamp": "2025-06-06T06:28:08+00:00"
+  },
+  {
+    "ticker": "GAZP",
+    "source": "markettwits",
+    "summary_text": "Газпром обсуждает с Китаем новые проекты трубопроводных поставок газа.",
+    "price_difference": "N/A",
+    "is_green": true,
+    "timestamp": "2025-05-30T14:38:35+00:00"
+  },
+  {
+    "ticker": "GAZP",
+    "source": "markettwits",
+    "summary_text": "Чистая прибыль Газпрома по МСФО в I квартале 2025 года составила 660 млрд руб. (+1% г/г).",
+    "price_difference": "+1%",
+    "is_green": true,
+    "timestamp": "2025-05-30T11:32:54+00:00"
+  },
+  {
+    "ticker": "GAZP",
+    "source": "markettwits",
+    "summary_text": "Газпром поставил в Китай первые 100 млрд кубометров газа по контракту до 2049 года.",
+    "price_difference": "N/A",
+    "is_green": true,
+    "timestamp": "2025-05-30T09:08:39+00:00"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "ticker": "LKOH",
+    "source": "markettwits",
+    "summary_text": "Лукойл приобрел у OMV 5% в концессии Ghasha в ОАЭ за $600 млн.",
+    "price_difference": "N/A",
+    "is_green": true,
+    "timestamp": "2025-05-30T08:59:41+00:00"
+  },
+  {
+    "ticker": "LKOH",
+    "source": "markettwits",
+    "summary_text": "Акционеры Лукойла одобрили дивиденды за 2024 год в размере 541 руб/акция. Отсечка — 3 июня.",
+    "price_difference": "541 руб/акц",
+    "is_green": true,
+    "timestamp": "2025-05-16T10:31:11+00:00"
+  },
+  {
+    "ticker": "LKOH",
+    "source": "markettwits",
+    "summary_text": "Новая нефтесервисная компания «Спецпромсервис» (49.5% принадлежит Лукойлу) увеличила масштаб деятельности с выручкой 20 млрд руб.",
+    "price_difference": "N/A",
+    "is_green": true,
+    "timestamp": "2025-05-14T05:23:13+00:00"
+  },
+  {
+    "ticker": "LKOH",
+    "source": "markettwits",
+    "summary_text": "Предложения о санкциях против Litasco Middle East (подразделение Лукойла) отклонены ЕС после возражений Венгрии.",
+    "price_difference": "N/A",
+    "is_green": true,
+    "timestamp": "2025-05-13T09:38:38+00:00"
+  },
+  {
+    "ticker": "LKOH",
+    "source": "markettwits",
+    "summary_text": "Евросоюз предлагает ввести санкции против компании Litasco Middle East (торговое подразделение Лукойла).",
+    "price_difference": "N/A",
+    "is_green": false,
+    "timestamp": "2025-05-07T11:48:10+00:00"
+  },
+  {
+    "ticker": "LKOH",
+    "source": "markettwits",
+    "summary_text": "Чистая прибыль Лукойла по РСБУ в I квартале 2025 года составила +16.3 млрд руб. против +89.88 млрд руб. годом ранее.",
+    "price_difference": "-82%",
+    "is_green": false,
+    "timestamp": "2025-04-30T14:02:36+00:00"
+  },
+  {
+    "ticker": "LKOH",
+    "source": "markettwits",
+    "summary_text": "Лукойл увеличил экспорт нефти на 4% в 2024 году, но снизил добычу газа на 2.3% и нефти на 2.6%.",
+    "price_difference": "N/A",
+    "is_green": false,
+    "timestamp": "2025-04-22T09:36:41+00:00"
+  },
+  {
+    "ticker": "LKOH",
+    "source": "markettwits",
+    "summary_text": "Лукойл обсудил с Ираком планы увеличения добычи по проектам.",
+    "price_difference": "N/A",
+    "is_green": true,
+    "timestamp": "2025-04-10T06:56:48+00:00"
+  },
+  {
+    "ticker": "LKOH",
+    "source": "markettwits",
+    "summary_text": "Совет директоров Лукойла утвердил дивиденды за 2024 год в размере 541 руб/акция. ГОСА — 15 мая, отсечка — 3 июня.",
+    "price_difference": "541 руб/акц",
+    "is_green": true,
+    "timestamp": "2025-03-25T12:21:19+00:00"
+  },
+  {
+    "ticker": "LKOH",
+    "source": "markettwits",
+    "summary_text": "Чистая прибыль Лукойла по МСФО за 2024 год составила 851.5 млрд руб. против 1.4 трлн руб. годом ранее.",
+    "price_difference": "-39%",
+    "is_green": false,
+    "timestamp": "2025-03-24T15:32:09+00:00"
+  },
+  {
+    "ticker": "LKOH",
+    "source": "markettwits",
+    "summary_text": "Власти Египта разрешили Лукойлу участвовать в нефтеразработке на востоке страны.",
+    "price_difference": "N/A",
+    "is_green": true,
+    "timestamp": "2025-02-10T12:03:38+00:00"
+  },
+  {
+    "ticker": "LKOH",
+    "source": "markettwits",
+    "summary_text": "Саудовский холдинг Kingdom Holding сохранил доли в Лукойле, несмотря на СВО.",
+    "price_difference": "N/A",
+    "is_green": true,
+    "timestamp": "2025-02-06T06:22:04+00:00"
+  },
+  {
+    "ticker": "LKOH",
+    "source": "markettwits",
+    "summary_text": "Совет директоров Лукойла рассматривает вопрос о смене CEO из-за американских санкций.",
+    "price_difference": "N/A",
+    "is_green": false,
+    "timestamp": "2025-01-14T11:48:46+00:00"
+  },
+  {
+    "ticker": "LKOH",
+    "source": "markettwits",
+    "summary_text": "США ввели санкции против СП «Лаявожнефтегаз» (совместное предприятие Лукойла и Газпрома).",
+    "price_difference": "N/A",
+    "is_green": false,
+    "timestamp": "2025-01-10T15:06:13+00:00"
+  }
+]

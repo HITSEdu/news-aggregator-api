@@ -4,4 +4,4 @@ WORKDIR /usr/src/app
 
 COPY . . 
 
-RUN pip install -r requirements.txt
+RUN pip install --default-timeout=100 -r requirements.txt

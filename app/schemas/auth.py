@@ -1,9 +1,12 @@
 from pydantic import BaseModel
 
+from app.schemas.user import UserWithTicker
+
 
 class Token(BaseModel):
-    access_token: str
-    token_type: str
+    token: str
+    refreshToken: str
+    user: UserWithTicker
 
 
 class TokenData(BaseModel):

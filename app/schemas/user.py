@@ -1,6 +1,13 @@
 from datetime import datetime
+from typing import List
 
 from pydantic import BaseModel, EmailStr
+
+
+class UserWithTicker(BaseModel):
+    email: EmailStr
+    login: str
+    tickers: List[str]
 
 
 class UserBase(BaseModel):
@@ -8,9 +15,8 @@ class UserBase(BaseModel):
     password: str
 
 
-
 class UserAuth(UserBase):
-    captcha_token: str
+    captchaToken: str
     login: str
 
 

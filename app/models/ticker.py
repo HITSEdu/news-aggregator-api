@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String
-from sqlalchemy.orm import relationship
 from sqlalchemy import select
+
 from app.models.database import AsyncSessionLocal
 from app.models.database import Base
 
@@ -48,20 +48,7 @@ async def create_initial_tickers():
 
 
 async def get_tickers() -> list[Ticker]:
-    """
-    Получает все тикеры из базы данных
-
-    Args:
-        db: Асинхронная сессия SQLAlchemy
-
-    Returns:
-        Список объектов Ticker
-    """
     async with AsyncSessionLocal() as db:
-        # Выполняем запрос на выбор всех тикеров
         result = await db.execute(select(Ticker))
-
-        # Получаем все записи и преобразуем их в список объектов Ticker
         tickers = result.scalars().all()
-
         return tickers

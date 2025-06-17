@@ -4,6 +4,7 @@ from app.utils.config import config
 
 HEADERS = {'Authorization': f'Bearer {config.yandex_api_token}'}
 
+
 async def summarize_request(session, headers, url, data):
     async with session.post(url=url, headers=headers, data=data) as response:
         return await response.text()

@@ -25,18 +25,6 @@ def get_password_hash(password: str):
     return pwd_context.hash(password)
 
 
-def create_access_token(data: dict, expires_delta: timedelta | None = None):
-    to_encode = data.copy()
-    expire = datetime.now(timezone.utc) + (expires_delta or timedelta(minutes=15))
-    to_encode.update({"exp": expire})
-    encoded_jwt = jwt.encode(
-        payload=to_encode,
-        key=config.secret_key,
-        algorithm=config.algorithm,
-    )
-    return encoded_jwt
-
-
 async def get_current_user(
         token: str = Depends(oauth2_scheme),
         db: AsyncSession = Depends(get_db)
@@ -64,3 +52,45 @@ async def get_current_user(
     if user is None:
         raise credentials_exception
     return user
+
+
+def create_access_token(data: dict, expires_delta: timedelta | None = None):
+    to_encode = data.copy()
+    if expires_delta:
+        expire = datetime.utcnow() + expires_delta
+    else:
+        expire = datetime.utcnow() + timedelta(minutes=15)
+    to_encode.update({"exp": expire})
+    encoded_jwt = jwt.encode(to_encode, config.secret_key, algorithm=config.algorithm)
+    return encoded_jwt
+
+
+def create_refresh_token(data: dict, expires_delta: timedelta | None = None) -> str:
+    to_encode = data.copy()
+    expire = datetime.now(timezone.utc) + (
+            expires_delta or timedelta(days=7)
+    )
+    to_encode.update({"exp": expire, "type": "refresh"})
+    return jwt.encode(to_encode, config.secret_key, algorithm=config.algorithm)
+
+
+def refresh_tokens(refresh_token: str) -> dict[str, str]:
+    try:
+        payload = jwt.decode(
+            refresh_token, config.secret_key, algorithms=[config.algorithm]
+        )
+        if payload.get("type") != "refresh":
+            raise ValueError("Invalid token type")
+        user_data = {"sub": payload.get("sub"), "username": payload.get("username")}
+        new_access_token = create_access_token(user_data)
+        new_refresh_token = create_refresh_token(
+            user_data
+        )
+        return {
+            "access_token": new_access_token,
+            "refresh_token": new_refresh_token,
+        }
+    except jwt.ExpiredSignatureError:
+        raise ValueError("Refresh token expired")
+    except jwt.JWTError:
+        raise ValueError("Invalid refresh token")

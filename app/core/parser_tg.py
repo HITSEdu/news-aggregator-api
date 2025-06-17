@@ -1,4 +1,3 @@
-import os
 from dataclasses import dataclass
 from datetime import datetime
 from typing import List
@@ -55,11 +54,11 @@ async def fetch_channel_history(client: TelegramClient, channel_username: str, t
 
     return posts
 
+
 async def display_posts(client: TelegramClient, channel_username: str, target: str, count: int):
     posts = await fetch_channel_history(client, channel_username, target, count)
     for p in posts:
         print(f"дата: {p.date} \n {p.text} \n ссылка: {p.channel_link}\n")
-
 
 # async def main():
 #     async with create_client("session_name") as client:

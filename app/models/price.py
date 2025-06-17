@@ -1,6 +1,7 @@
-from sqlalchemy import Column, Integer, Double, DateTime, select
-from sqlalchemy.orm import relationship
 from datetime import timezone
+
+from sqlalchemy import Column, Integer, Double, DateTime, select
+
 from app.models.database import AsyncSessionLocal
 from app.models.database import Base
 from app.tinkoff_client.get_price_by_ticker import get_monthly_hourly_candles
