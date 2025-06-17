@@ -1,6 +1,7 @@
 from sqlalchemy import Column, Integer, String, Double, DateTime, func
-from sqlalchemy.orm import Session
-from . import Base
+
+from app.models.database import Base
+
 
 class News(Base):
     __tablename__ = "News"

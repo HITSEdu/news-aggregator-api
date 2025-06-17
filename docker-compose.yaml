@@ -15,18 +15,18 @@ services:
       - ./:/usr/src/app:ro
     command: bash -c "uvicorn app.main:app --host 0.0.0.0 --port 8000  --reload"
   postgres:
-    image: postgres:15-alpine  # Можно выбрать другую версию (например, latest, 16, 14)
+    image: postgres:15-alpine
     container_name: postgres_db
     environment:
-      POSTGRES_USER: postgres      # Имя пользователя по умолчанию
-      POSTGRES_PASSWORD: postgres  # Пароль (в продакшене используйте сложный!)
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
       POSTGRES_DB: appdb
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ./init_db:/docker-entrypoint-initdb.d  # Вот эта строка важна
+      - ./init_db:/docker-entrypoint-initdb.d
     ports:
-      - "5432:5432"  # Пробрасываем порт наружу (host:container)
-    restart: unless-stopped  # Автоматически перезапускать контейнер при падении
+      - "5432:5432"
+    restart: unless-stopped
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U postgres"]
       interval: 5s
@@ -34,4 +34,4 @@ services:
       retries: 5
 
 volumes:
-  postgres_data:  # Именованный том для хранения данных
+  postgres_data:

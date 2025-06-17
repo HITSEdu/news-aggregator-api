@@ -1,6 +1,8 @@
 from sqlalchemy import Column, Integer, String, Double, DateTime, func
 from sqlalchemy.orm import relationship
-from . import Base
+
+from app.models.database import Base
+
 
 class Price(Base):
     __tablename__ = "prices"
