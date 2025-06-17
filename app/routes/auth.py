@@ -53,6 +53,7 @@ async def login(user_data: UserBase, db: AsyncSession = Depends(get_db)):
     #     raise HTTPException(status_code=400, detail="Invalid reCAPTCHA token")
     user = await db.execute(select(DBUser).where(DBUser.email == user_data.email))
     user = user.scalar_one_or_none()
+    print(user)
     if not user or not verify_password(user_data.password, user.hashed_password):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,

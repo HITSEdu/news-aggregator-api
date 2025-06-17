@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GAZP",
+    "description": "\"Газпром\" (ПАО) - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg",
+    "sector": "Нефтегазовая отрасль"
+  },
+  {
+    "name": "SBER",
+    "description": "Сбербанк России ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sberbank.svg",
+    "sector": "Финансовый сектор, банковские услуги"
+  },
+  {
+    "name": "MTSS",
+    "description": "Мобильные ТелеСистемы ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/mts.svg",
+    "sector": "Телекоммуникации"
+  },
+  {
+    "name": "ROSN",
+    "description": "ПАО НК Роснефть",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/rosneft.svg",
+    "sector": "Нефтегазовая отрасль"
+  },
+  {
+    "name": "VTBR",
+    "description": "ПАО Банк ВТБ - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/vtbr.svg",
+    "sector": "Финансовый сектор, банковские услуги"
+  },
+  {
+    "name": "VKCO",
+    "description": "Международная компания ПАО ВК",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/mail-ru-group.svg",
+    "sector": "IT и интернет-технологии"
+  },
+  {
+    "name": "CHMF",
+    "description": "Северсталь (ПАО)ао",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/severstal.svg",
+    "sector": "Металлургия"
+  },
+  {
+    "name": "GMKN",
+    "description": "ГМК \"Нор.Никель\" ПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/norilsk.svg",
+    "sector": "Металлургия, горнодобывающая промышленность"
+  }
+]
