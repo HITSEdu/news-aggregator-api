@@ -5,6 +5,7 @@ from app.routes.tickets import router as ticket_router
 from contextlib import asynccontextmanager
 from app.models.database import engine, create_tables, get_db
 from app.models.ticker import create_initial_tickers
+from fastapi.middleware.cors import CORSMiddleware
 
 
 @asynccontextmanager
@@ -12,7 +13,6 @@ async def lifespan(app: FastAPI):
     print("Creating tables...")
     await create_tables()
     await create_initial_tickers()
-
     yield
     print("Disposing engine...")
     await engine.dispose()
@@ -27,7 +27,17 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
 router = APIRouter()
+
 
 router.include_router(auth_router)
 router.include_router(price_router)
@@ -37,5 +47,6 @@ router.include_router(ticket_router)
 @router.get("/")
 async def get_root():
     return {"message": "hello world"}
+
 
 app.include_router(router)

@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
 from sqlalchemy import select
-
+from app.models.database import AsyncSessionLocal
 from app.models.database import Base
 
 
