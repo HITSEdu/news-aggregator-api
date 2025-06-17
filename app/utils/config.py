@@ -15,6 +15,8 @@ class Config(BaseSettings):
     access_token_expire_minutes: int = os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES")
     database_url: str = os.getenv("DATABASE_URL")
     tinkoff_api_token: str = os.getenv("TINKOFF_API_TOKEN")
+    recaptcha_secret_key: str = os.getenv("RECAPTCHA_SECRET_KEY")
+    recaptha_site_key: str = os.getenv("RECAPTCHA_SITE_KEY")
 
 
 config = Config()

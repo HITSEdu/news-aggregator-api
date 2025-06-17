@@ -3,8 +3,9 @@ from app.routes.auth import router as auth_router
 from app.routes.price import router as price_router
 from app.routes.tickets import router as ticket_router
 from contextlib import asynccontextmanager
-from app.models.database import engine, create_tables, get_db
-from app.models.ticker import create_initial_tickers
+from app.models.database import engine, create_tables
+from app.models.ticker import create_initial_tickers, get_tickers
+from app.models.price import load_prices_for_ticker
 from fastapi.middleware.cors import CORSMiddleware
 
 
@@ -13,6 +14,9 @@ async def lifespan(app: FastAPI):
     print("Creating tables...")
     await create_tables()
     await create_initial_tickers()
+    # tickers = await get_tickers()
+    #     await load_prices_for_ticker(ticker=ticker.name, ticker_id=ticker.id)
+    # await load_prices_for_ticker("GAZP", 2)
     yield
     print("Disposing engine...")
     await engine.dispose()

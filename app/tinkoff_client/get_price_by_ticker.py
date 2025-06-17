@@ -7,23 +7,19 @@ from tinkoff.invest import (
 )
 from tinkoff.invest.utils import now
 
+
 API_TOKEN = "t.4_kNUKFVaFH2hVUcTlIOUUD2KT7BujUAbA1B-gm4TRInfUd9v_e6uWCPu8YgXdhUnEMLCkmZk0_HLa9vlfCNEQ"  # Замените на ваш токен Tinkoff Invest API
 TICKER = "SBER"  # Тикер акции (SBER, GAZP, VTBR и т.д.)
 
-
-async def get_instrument_figi(client: AsyncClient, ticker: str) -> str:
-    """Получаем FIGI инструмента по тикеру"""
-    instruments = await client.instruments.shares()
-    instrument = next(i for i in instruments.instruments if i.ticker == ticker)
-    return instrument.figi
 
 
 async def get_monthly_hourly_candles(ticker: str) -> list[dict]:
     """Получаем часовые свечи за последний месяц"""
     async with AsyncClient(API_TOKEN) as client:
+        instruments = await client.instruments.shares()
+        instrument = next(i for i in instruments.instruments if i.ticker == ticker)
         # 1. Получаем FIGI инструмента
-        figi = await get_instrument_figi(client, ticker)
-
+        figi = instrument.figi
         # 2. Определяем даты (сегодня и месяц назад)
         to_date = now()
         from_date = to_date - timedelta(days=30)

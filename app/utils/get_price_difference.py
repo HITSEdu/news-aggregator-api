@@ -12,7 +12,6 @@ async def get_price_difference(db: AsyncSession, timestamp: datetime):
     timestamp_minus_1h = timestamp - timedelta(hours=1)
     stmt = (
         select(Price)
-        .join(Ticker)
         .where(
             Price.timestamp >= timestamp_minus_1h,
             Price.timestamp <= timestamp_plus_1h,
