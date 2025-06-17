@@ -1,5 +1,4 @@
 from sqlalchemy import Column, Integer, String, Double, DateTime, func
-
 from app.models.database import Base
 
 
@@ -9,4 +8,4 @@ class News(Base):
     ticker = Column
     source = Column(String)
     summary_text = Column(String)
-    timestamp = created_at = Column(DateTime, server_default=func.now())
+    created_at = Column(DateTime, server_default=func.now())

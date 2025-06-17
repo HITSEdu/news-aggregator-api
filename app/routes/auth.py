@@ -36,6 +36,7 @@ async def register(user_data: UserAuth, db: AsyncSession = Depends(get_db)):
         id=db_user.id,
         email=db_user.email,
         password=db_user.hashed_password,
+        favorite_tickers="",
         created_at=db_user.created_at,
     )
     return user_response

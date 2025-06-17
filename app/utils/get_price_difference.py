@@ -14,8 +14,8 @@ async def get_price_difference(db: AsyncSession, timestamp: datetime):
         select(Price)
         .join(Ticker)
         .where(
-            Price.created_at >= timestamp_minus_1h,
-            Price.created_at <= timestamp_plus_1h,
+            Price.timestamp >= timestamp_minus_1h,
+            Price.timestamp <= timestamp_plus_1h,
         )
         .options(selectinload(Price.owner))
     )

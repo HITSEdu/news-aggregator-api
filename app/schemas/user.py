@@ -14,3 +14,7 @@ class User(UserAuth):
 
     class Config:
         orm_mode = True
+
+
+market_twist_tags = {"GAZP": ["газ", "нефть"]}
+rbk_tags = ["GAZP"]

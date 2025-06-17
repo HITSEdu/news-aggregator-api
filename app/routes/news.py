@@ -48,3 +48,8 @@ async def get_news_by_importance(ticker: str) -> list[NewsOut]:
 @router.get("/get_news_by_source/{ticker}/{src}")
 async def get_news_by_source(ticker: str, src: str) -> list[NewsOut]:
     ...
+
+
+@router.get("/price/sber")
+async def get_price_sber():
+    return get_price_by_ticker()
