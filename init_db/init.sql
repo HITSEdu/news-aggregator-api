@@ -8,7 +8,7 @@ CREATE TABLE tickers (
 CREATE TABLE prices (
     id SERIAL PRIMARY KEY,
     price DOUBLE PRECISION NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    timestamp TIMESTAMP NOT NULL,
     ticker_id INTEGER REFERENCES tickers(id)
 );
 
@@ -25,6 +25,7 @@ CREATE TABLE news (
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     email VARCHAR(255) UNIQUE NOT NULL,
+    login VARCHAR(255) NOT NULL,
     hashed_password VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );

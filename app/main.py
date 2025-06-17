@@ -1,5 +1,7 @@
 from fastapi import FastAPI, APIRouter
 from app.routes.auth import router as auth_router
+from app.routes.price import router as price_router
+from app.routes.tickets import router as ticket_router
 from contextlib import asynccontextmanager
 from app.models.database import engine, create_tables
 from app.models.ticker import create_initial_tickers, get_tickers
@@ -32,13 +34,26 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
 router = APIRouter()
 
+
 router.include_router(auth_router)
+router.include_router(price_router)
+router.include_router(ticket_router)
 
 
 @router.get("/")
 async def get_root():
     return {"message": "hello world"}
+
 
 app.include_router(router)

@@ -1,5 +1,4 @@
 from datetime import timedelta
-
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -12,14 +11,17 @@ from app.auth.auth import (
 from app.models.database import get_db
 from app.models.user import User as DBUser
 from app.schemas.auth import Token
-from app.schemas.user import UserAuth, User
+from app.schemas.user import UserBase, UserAuth, UserResponse
 from app.utils.config import config
+from app.utils.captcha import verify_recaptcha
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 
 
-@router.post("/register", response_model=User)
+@router.post("/register", response_model=UserResponse)
 async def register(user_data: UserAuth, db: AsyncSession = Depends(get_db)):
+    # if not await verify_recaptcha(user_data.captcha_token):
+    #     raise HTTPException(status_code=400, detail="Invalid reCAPTCHA token")
     existing_user = await db.execute(
         select(DBUser).where(DBUser.email == user_data.email)
     )
@@ -28,23 +30,30 @@ async def register(user_data: UserAuth, db: AsyncSession = Depends(get_db)):
             status_code=status.HTTP_400_BAD_REQUEST, detail="Email already registered"
         )
     hashed_password = get_password_hash(user_data.password)
-    db_user = DBUser(email=user_data.email, hashed_password=hashed_password)
+    db_user = DBUser(
+        email=user_data.email, login=user_data.login, hashed_password=hashed_password
+    )
     db.add(db_user)
     await db.commit()
     await db.refresh(db_user)
-    user_response = User(
+    user_response = UserResponse(
         id=db_user.id,
         email=db_user.email,
+        login=db_user.login,
         password=db_user.hashed_password,
+        favorite_tickers="",
         created_at=db_user.created_at,
     )
     return user_response
 
 
 @router.post("/login", response_model=Token)
-async def login(user_data: UserAuth, db: AsyncSession = Depends(get_db)):
+async def login(user_data: UserBase, db: AsyncSession = Depends(get_db)):
+    # if not await verify_recaptcha(user_data.captcha_token):
+    #     raise HTTPException(status_code=400, detail="Invalid reCAPTCHA token")
     user = await db.execute(select(DBUser).where(DBUser.email == user_data.email))
     user = user.scalar_one_or_none()
+    print(user)
     if not user or not verify_password(user_data.password, user.hashed_password):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
