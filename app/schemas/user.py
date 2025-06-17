@@ -2,12 +2,12 @@ from pydantic import BaseModel, EmailStr
 from datetime import datetime
 
 
-class UserCreate(BaseModel):
+class UserAuth(BaseModel):
     email: EmailStr
     password: str
     
 
-class User(UserCreate):
+class User(UserAuth):
     id: int
     created_at: datetime
 
