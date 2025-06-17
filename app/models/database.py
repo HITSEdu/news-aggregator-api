@@ -2,13 +2,13 @@ from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from sqlalchemy.orm import sessionmaker, declarative_base
 from sqlalchemy.pool import NullPool
 
-DATABASE_URL = "postgresql+asyncpg://postgres:postgres@postgres:5432/appdb"
+from app.utils.config import config
 
 engine = create_async_engine(
-    DATABASE_URL,
-    echo=True,  # Логирование SQL запросов (можно отключить в production)
+    config.databse_url,
+    echo=True,
     future=True,
-    poolclass=NullPool,  # Или используйте AsyncAdaptedQueuePool для пула соединений
+    poolclass=NullPool,
 )
 
 AsyncSessionLocal = sessionmaker(
@@ -22,12 +22,10 @@ AsyncSessionLocal = sessionmaker(
 Base = declarative_base()
 
 
-async def get_db(): 
-    """
-    Генератор сессий для зависимостей FastAPI
-    """
+async def get_db():
     async with AsyncSessionLocal() as session:
         yield session
+
 
 async def create_tables():
     async with engine.begin() as conn:
