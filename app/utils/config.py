@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+from dotenv import load_dotenv 
 from pydantic import BaseConfig, HttpUrl
 
 load_dotenv()
