@@ -15,6 +15,7 @@ CREATE TABLE news (
     ticker VARCHAR(50) NOT NULL,
     source VARCHAR(255) NOT NULL,
     summary_text TEXT NOT NULL,
+    price_difference DOUBLE PRECISION,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 

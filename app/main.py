@@ -11,20 +11,20 @@ from app.models.ticker import create_initial_tickers, get_tickers
 from app.routes.auth import router as auth_router
 from app.routes.price import router as price_router
 from app.routes.tickets import router as ticket_router
+from app.routes.news import router as news_router
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    ...
-    # await create_tables()
-    # await create_initial_tickers()
-    # tickers = await get_tickers()
-    # for ticker in tickers:
-    #     await load_prices_for_ticker(ticker=ticker.name, ticker_id=ticker.id)
-    #     await load_initial_news_by_ticker(ticker_name=ticker.name)
-    # await load_prices_for_ticker("GAZP", 2)
-    # yield
-    # await engine.dispose()
+    await create_tables()
+    await create_initial_tickers()
+    tickers = await get_tickers()
+    for ticker in tickers:
+        await load_prices_for_ticker(ticker=ticker.name, ticker_id=ticker.id)
+        await load_initial_news_by_ticker(ticker_name=ticker.name)
+
+    yield
+    await engine.dispose()
 
 
 app = FastAPI(
@@ -49,9 +49,10 @@ router = APIRouter()
 router.include_router(auth_router)
 router.include_router(price_router)
 router.include_router(ticket_router)
+router.include_router(news_router)
 
 app.include_router(router)
 
-# uvicorn app.main:app --host 0.0.0.0 --port 8000
-if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=8000)
+# # uvicorn app.main:app --host 0.0.0.0 --port 8000
+# if __name__ == "__main__":
+#     uvicorn.run("main:app", host="0.0.0.0", port=8000)

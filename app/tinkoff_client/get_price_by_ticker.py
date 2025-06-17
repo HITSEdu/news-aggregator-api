@@ -20,7 +20,7 @@ async def get_monthly_hourly_candles(ticker: str) -> list[dict]:
                 return []
             figi = instrument.figi
             to_date = now()
-            from_date = to_date - timedelta(days=30)
+            from_date = to_date - timedelta(days=1)
 
             candles: list[Candle] = []
             try:
