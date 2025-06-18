@@ -18,6 +18,7 @@ class Config(BaseSettings):
     recaptha_site_key: str = os.getenv("RECAPTCHA_SITE_KEY")
     telegram_account_api_id: int = os.getenv("TELEGRAM_ACCOUNT_API_ID")
     telegram_api_hash: str = os.getenv("TELEGRAM_API_HASH")
+    path_to_data: str = os.getenv("PATH_TO_DATA")
 
 
 config = Config()

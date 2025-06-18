@@ -60,8 +60,8 @@ async def register(user_data: UserAuth, db: AsyncSession = Depends(get_db)):
 
 @router.post("/login", response_model=Token)
 async def login(user_data: UserBase, db: AsyncSession = Depends(get_db)):
-    # if not await verify_recaptcha(user_data.captcha_token):
-    #     raise HTTPException(status_code=400, detail="Invalid reCAPTCHA token")
+    if not await verify_recaptcha(user_data.captcha_token):
+        raise HTTPException(status_code=400, detail="Invalid reCAPTCHA token")
     db_user = await db.execute(select(DBUser).where(DBUser.email == user_data.email))
     db_user = db_user.scalar_one_or_none()
     if not db_user or not verify_password(user_data.password, db_user.hashed_password):

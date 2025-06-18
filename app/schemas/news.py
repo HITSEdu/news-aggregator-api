@@ -7,7 +7,6 @@ class NewsOut(BaseModel):
     summary_text: str
     price_difference: str
     is_green: bool
-    description: str
     timestamp: str
 
     class Config:

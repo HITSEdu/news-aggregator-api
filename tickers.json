@@ -2,49 +2,31 @@
   {
     "name": "GAZP",
     "description": "\"Газпром\" (ПАО) - обыкн.",
-    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg",
-    "sector": "Нефтегазовая отрасль"
+    "icon_url": "https://s3-symbol-logo.tradingview.com/gazprom.svg"
   },
   {
     "name": "SBER",
     "description": "Сбербанк России ПАО - обыкн.",
-    "icon_url": "https://s3-symbol-logo.tradingview.com/sberbank.svg",
-    "sector": "Финансовый сектор, банковские услуги"
-  },
-  {
-    "name": "MTSS",
-    "description": "Мобильные ТелеСистемы ПАО - обыкн.",
-    "icon_url": "https://s3-symbol-logo.tradingview.com/mts.svg",
-    "sector": "Телекоммуникации"
-  },
-  {
-    "name": "ROSN",
-    "description": "ПАО НК Роснефть",
-    "icon_url": "https://s3-symbol-logo.tradingview.com/rosneft.svg",
-    "sector": "Нефтегазовая отрасль"
+    "icon_url": "https://s3-symbol-logo.tradingview.com/sberbank.svg"
   },
   {
     "name": "VTBR",
     "description": "ПАО Банк ВТБ - обыкн.",
-    "icon_url": "https://s3-symbol-logo.tradingview.com/vtbr.svg",
-    "sector": "Финансовый сектор, банковские услуги"
+    "icon_url": "https://s3-symbol-logo.tradingview.com/vtbr.svg"
   },
   {
-    "name": "VKCO",
-    "description": "Международная компания ПАО ВК",
-    "icon_url": "https://s3-symbol-logo.tradingview.com/mail-ru-group.svg",
-    "sector": "IT и интернет-технологии"
+    "name": "YDEX",
+    "description": "МКПАО ЯНДЕКС",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/yandex.svg"
   },
   {
-    "name": "CHMF",
-    "description": "Северсталь (ПАО)ао",
-    "icon_url": "https://s3-symbol-logo.tradingview.com/severstal.svg",
-    "sector": "Металлургия"
+    "name": "T",
+    "description": "Т-Технологии МКПАО - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/tcs-group-holding.svg"
   },
   {
-    "name": "GMKN",
-    "description": "ГМК \"Нор.Никель\" ПАО - обыкн.",
-    "icon_url": "https://s3-symbol-logo.tradingview.com/norilsk.svg",
-    "sector": "Металлургия, горнодобывающая промышленность"
+    "name": "LKOH",
+    "description": "НК ЛУКОЙЛ (ПАО) - - обыкн.",
+    "icon_url": "https://s3-symbol-logo.tradingview.com/lukoil.svg"
   }
 ]

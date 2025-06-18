@@ -13,24 +13,9 @@ class Ticker(Base):
 
 async def create_initial_tickers():
     async with AsyncSessionLocal() as db:
-        ticker_names = [
-            "YNDX",
-            "GAZP",
-            "TCSG",
-            "SBER",
-            "MTSS",
-            "ROSN",
-            "VTBR",
-            "VKCO",
-            "CHMF",
-            "GMKN",
-        ]
-
-        # Проверяем, есть ли уже тикеры в базе
+        ticker_names = ["GZPR", "LKOH", "SBER", "T", "VTBR", "YDEX"]
         existing_tickers = await db.execute(select(Ticker.name))
         existing_names = {name for (name,) in existing_tickers.all()}
-
-        # Создаем только отсутствующие тикеры
         new_tickers = []
         for name in ticker_names:
             if name not in existing_names:
@@ -39,8 +24,6 @@ async def create_initial_tickers():
                 new_tickers.append(new_ticker)
 
         await db.commit()
-
-        # Обновляем объекты, чтобы получить их ID
         for ticker in new_tickers:
             await db.refresh(ticker)
 
@@ -49,6 +32,7 @@ async def create_initial_tickers():
 
 async def get_tickers() -> list[Ticker]:
     async with AsyncSessionLocal() as db:
+        # return ["GZPR", "LKOH", "SBER", "T", "VTBR", "YDEX"]
         result = await db.execute(select(Ticker))
         tickers = result.scalars().all()
         return tickers

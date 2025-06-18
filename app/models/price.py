@@ -19,7 +19,6 @@ async def load_prices_for_ticker(ticker: str, ticker_id: int):
     prices = await get_monthly_hourly_candles(ticker)
     async with AsyncSessionLocal() as db:
         for price_data in prices:
-            # Проверяем, существует ли уже такая запись
             existing = await db.execute(
                 select(Price).where(
                     Price.ticker_id == ticker_id, Price.timestamp == price_data["time"]
@@ -28,7 +27,7 @@ async def load_prices_for_ticker(ticker: str, ticker_id: int):
             timestamp = price_data["time"].astimezone(timezone.utc)
             if not existing.scalar_one_or_none():
                 db_price = Price(
-                    price=price_data["close"],
+                    price=price_data["value"],
                     ticker_id=ticker_id,
                     timestamp=timestamp,
                 )

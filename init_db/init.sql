@@ -15,7 +15,9 @@ CREATE TABLE news (
     ticker VARCHAR(50) NOT NULL,
     source VARCHAR(255) NOT NULL,
     summary_text TEXT NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    price_difference VARCHAR(50) NOT NULL,
+    is_green BOOLEAN DEFAULT FALSE NOT NULL
 );
 
 CREATE TABLE users (

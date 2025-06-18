@@ -15,13 +15,11 @@ async def get_monthly_hourly_candles(ticker: str) -> list[dict]:
         async with AsyncClient(config.tinkoff_api_token) as client:
             instruments = await client.instruments.shares()
             instrument = next((i for i in instruments.instruments if i.ticker == ticker), None)
-
             if not instrument:
                 return []
             figi = instrument.figi
             to_date = now()
             from_date = to_date - timedelta(days=30)
-
             candles: list[Candle] = []
             try:
                 async for candle in client.get_all_candles(
@@ -36,11 +34,7 @@ async def get_monthly_hourly_candles(ticker: str) -> list[dict]:
             return [
                 {
                     "time": candle.time,
-                    "open": candle.open.units + candle.open.nano / 1e9,
-                    "close": candle.close.units + candle.close.nano / 1e9,
-                    "high": candle.high.units + candle.high.nano / 1e9,
-                    "low": candle.low.units + candle.low.nano / 1e9,
-                    "volume": candle.volume,
+                    "value": candle.close.units + candle.close.nano / 1e9,
                 }
                 for candle in candles
             ]
