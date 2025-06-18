@@ -1,7 +1,7 @@
 [
   {
     "ticker": "YDEX",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326986",
     "summary_text": "Путин поручил правительству уделять особое внимание поддержке интернета и российского мессенджера (потенциально позитивно для VK).",
     "price_difference": "N/A",
     "is_green": true,
@@ -9,7 +9,7 @@
   },
   {
     "ticker": "YDEX",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326981",
     "summary_text": "Почти 70% российских пользователей ищут информацию в 'Яндексе' — заявление Шадаева.",
     "price_difference": "N/A",
     "is_green": true,
@@ -17,7 +17,7 @@
   },
   {
     "ticker": "YDEX",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326925",
     "summary_text": "Прогноз Совкомбанка: справедливая стоимость акций Яндекса — 10 000 руб (+130%).",
     "price_difference": "+130%",
     "is_green": true,
@@ -25,7 +25,7 @@
   },
   {
     "ticker": "YDEX",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326857",
     "summary_text": "«Т-Технологии» не исключают коммерческого партнерства с «Яндексом», включая совместные продукты.",
     "price_difference": "N/A",
     "is_green": true,
@@ -33,7 +33,7 @@
   },
   {
     "ticker": "YDEX",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326230",
     "summary_text": "Шадаев допустил поэтапное ограничение зарубежных облачных сервисов в пользу российских аналогов (потенциально позитивно для Яндекса).",
     "price_difference": "N/A",
     "is_green": true,
@@ -41,7 +41,7 @@
   },
   {
     "ticker": "YDEX",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/325977",
     "summary_text": "Акционеры Яндекса начнут владеть акциями напрямую. Технические изменения не повлияют на стратегию компании.",
     "price_difference": "N/A",
     "is_green": true,
@@ -49,7 +49,7 @@
   },
   {
     "ticker": "YDEX",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/325969",
     "summary_text": "Инвесторы («Интеррос» и «Т-Технологии») приобрели 9.95% акций Яндекса. Инвестиции долгосрочные.",
     "price_difference": "N/A",
     "is_green": true,
@@ -57,7 +57,7 @@
   },
   {
     "ticker": "YDEX",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/325563",
     "summary_text": "Яндекс внедрит ИИ-ассистента «Алису» в новостройки MR Group для управления домофонами и камерами.",
     "price_difference": "N/A",
     "is_green": true,
@@ -65,7 +65,7 @@
   },
   {
     "ticker": "YDEX",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/325301",
     "summary_text": "Допэмиссия акций Яндекса по цене 4073 руб для программы мотивации сотрудников.",
     "price_difference": "N/A",
     "is_green": false,
@@ -73,7 +73,7 @@
   },
   {
     "ticker": "YDEX",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/325286",
     "summary_text": "Яндекс (РСБУ 1кв 2025): прибыль +60.1 млрд руб против убытка годом ранее.",
     "price_difference": "N/A",
     "is_green": true,
@@ -81,7 +81,7 @@
   },
   {
     "ticker": "YDEX",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/325116",
     "summary_text": "Яндекс вошел в лидеров IT-компаний России по выручке (6.7 трлн руб в 2024).",
     "price_difference": "N/A",
     "is_green": true,
@@ -89,7 +89,7 @@
   },
   {
     "ticker": "YDEX",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/324009",
     "summary_text": "Яндекс купил платформу для девелоперов «Домиленд» у группы «Самолет».",
     "price_difference": "N/A",
     "is_green": true,

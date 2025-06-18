@@ -1,7 +1,7 @@
 [
   {
     "ticker": "VTBR",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/328317",
     "summary_text": "ВТБ хочет привлечь якорного инвестора для планируемой допэмиссии, но может его не раскрыть - Пьянов",
     "price_difference": "-1.5%",
     "is_green": false,
@@ -9,7 +9,7 @@
   },
   {
     "ticker": "VTBR",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/328306",
     "summary_text": "Новая допэмиссия обыкновенных акций ВТБ будет похожа на ту, что группа проводила летом 2023 года",
     "price_difference": "-2.0%",
     "is_green": false,
@@ -17,7 +17,7 @@
   },
   {
     "ticker": "VTBR",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/328303",
     "summary_text": "ЧИСТАЯ ПРИБЫЛЬ ВТБ В ЭТОМ ГОДУ МОЖЕТ ПРИБЛИЗИТЬСЯ К ₽500 МЛРД РУБ. — ПЬЯНОВ",
     "price_difference": "+3.2%",
     "is_green": true,
@@ -25,7 +25,7 @@
   },
   {
     "ticker": "VTBR",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/328119",
     "summary_text": "ВТБ ЗАВЕРШИЛ ЮРИДИЧЕСКОЕ ПРИСОЕДИНЕНИЕ РНКБ - КОСТИН",
     "price_difference": "+0.8%",
     "is_green": true,
@@ -33,7 +33,7 @@
   },
   {
     "ticker": "VTBR",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/327869",
     "summary_text": "ДОХОДЫ ГОСУДАРСТВА ОТ ДИВИДЕНДОВ ВТБ ПО ИТОГАМ 2024-2028 ГГ. БУДУТ НАПРАВЛЯТЬСЯ НА ФИНАНСИРОВАНИЕ ОСК",
     "price_difference": "-0.5%",
     "is_green": false,
@@ -41,7 +41,7 @@
   },
   {
     "ticker": "VTBR",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326830",
     "summary_text": "ДЕРЖАТЕЛИ ВЫПУСКА СУБОРДОВ ВТБ СУБ-Т1-2 ОБЪЕМОМ 190 МЛН ЕВРО ПОДДЕРЖАЛИ РУБЛИФИКАЦИЮ",
     "price_difference": "+0.3%",
     "is_green": true,
@@ -49,7 +49,7 @@
   },
   {
     "ticker": "VTBR",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326392",
     "summary_text": "ВТБ МОЖЕТ АНОНСИРОВАТЬ ЭТИМ ЛЕТОМ НОВУЮ ДОПЭМИССИЮ, ЕЕ ОБЪЕМ БУДЕТ НЕБОЛЬШИМ В СРАВНЕНИИ С ПЛАНАМИ ПО ДИВИДЕНДАМ ЗА 2024 Г.",
     "price_difference": "-1.8%",
     "is_green": false,
@@ -57,7 +57,7 @@
   },
   {
     "ticker": "VTBR",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326391",
     "summary_text": "ЧИСТАЯ ПРИБЫЛЬ ВТБ ПО МСФО ЗА 4 МЕСЯЦА СОКРАТИЛАСЬ НА 18,6%, ДО 165,5 МЛРД РУБ.",
     "price_difference": "-2.5%",
     "is_green": false,
@@ -65,7 +65,7 @@
   },
   {
     "ticker": "VTBR",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326265",
     "summary_text": "Чистая прибыль ВТБ за 4 месяца по РСБУ выросла в 1,7 раза - до 73,21 млрд руб",
     "price_difference": "+1.2%",
     "is_green": true,
@@ -73,7 +73,7 @@
   },
   {
     "ticker": "VTBR",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/325282",
     "summary_text": "Суд удовлетворил иск ВТБ к британской 'дочке' о взыскании 2,4 млрд руб. по овердрафтному кредиту",
     "price_difference": "+0.7%",
     "is_green": true,
@@ -81,7 +81,7 @@
   },
   {
     "ticker": "VTBR",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/325122",
     "summary_text": "ДЕПОЗИТАРИЙ ВТБ ВКЛЮЧЕН В САНКЦИОННЫЙ СПИСОК ВЕЛИКОБРИТАНИИ",
     "price_difference": "-3.0%",
     "is_green": false,
@@ -89,7 +89,7 @@
   },
   {
     "ticker": "VTBR",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/324251",
     "summary_text": "ВТБ ЗАПУСКАЕТ ПРОЦЕДУРУ 'РУБЛИФИКАЦИИ' ВАЛЮТНЫХ СУБОРДОВ",
     "price_difference": "+0.5%",
     "is_green": true,
@@ -97,7 +97,7 @@
   },
   {
     "ticker": "VTBR",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/323130",
     "summary_text": "ВТБ увеличил объемы двух программ биржевых облигаций",
     "price_difference": "+0.3%",
     "is_green": true,
@@ -105,7 +105,7 @@
   },
   {
     "ticker": "VTBR",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/323098",
     "summary_text": "Владельцы облигаций ВТБ - физлица получили право на досрочное погашение на фоне присоединения РНКБ",
     "price_difference": "+0.4%",
     "is_green": true,
@@ -113,7 +113,7 @@
   },
   {
     "ticker": "VTBR",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/322311",
     "summary_text": "Возобновление выплат дивидендов ВТБ могло быть вызвано необходимостью пополнения бюджета",
     "price_difference": "-1.2%",
     "is_green": false,
@@ -121,7 +121,7 @@
   },
   {
     "ticker": "VTBR",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/322248",
     "summary_text": "ДИВИДЕНДЫ БУДУТ СТОИТЬ ВТБ 1,1 П.П. ДОСТАТОЧНОСТИ КАПИТАЛА, БАНК ВОСПОЛНИТ ИХ РАЗНЫМИ ИСТОЧНИКАМИ, ДОПЭМИССИЯ НЕ ИСКЛЮЧЕНА",
     "price_difference": "-2.0%",
     "is_green": false,
@@ -129,7 +129,7 @@
   },
   {
     "ticker": "VTBR",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/322223",
     "summary_text": "Резкий рост акций ВТБ на 25%",
     "price_difference": "+25.0%",
     "is_green": true,

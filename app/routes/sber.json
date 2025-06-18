@@ -1,7 +1,7 @@
 [
   {
     "ticker": "SBER",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/328304",
     "summary_text": "Сбер рассчитывает выполнить все цели стратегии 2024-2026 и сохранить дивидендную политику, выплачивая не менее 50% от чистой прибыли.",
     "price_difference": "N/A",
     "is_green": true,
@@ -9,7 +9,7 @@
   },
   {
     "ticker": "SBER",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/328151",
     "summary_text": "Акции Сбера достигли недельного максимума.",
     "price_difference": "N/A",
     "is_green": true,
@@ -17,7 +17,7 @@
   },
   {
     "ticker": "SBER",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/328124",
     "summary_text": "Сбер не планирует промежуточные дивиденды, сохраняя выплаты раз в год в размере не менее 50% от чистой прибыли.",
     "price_difference": "N/A",
     "is_green": true,
@@ -25,7 +25,7 @@
   },
   {
     "ticker": "SBER",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/327567",
     "summary_text": "Чистая прибыль Сбера по РСБУ за январь-май 2025 года составила 682.9 млрд руб. (+8.7% г/г).",
     "price_difference": "+8.7%",
     "is_green": true,
@@ -33,7 +33,7 @@
   },
   {
     "ticker": "SBER",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/327041",
     "summary_text": "Сбер рассматривает вывод внутренних IT-продуктов на рынок.",
     "price_difference": "N/A",
     "is_green": true,
@@ -41,7 +41,7 @@
   },
   {
     "ticker": "SBER",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326928",
     "summary_text": "Надбавка за системную значимость для Сбера может вырасти до 2.5%, что будет учтено в новой стратегии.",
     "price_difference": "N/A",
     "is_green": true,
@@ -49,7 +49,7 @@
   },
   {
     "ticker": "SBER",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326779",
     "summary_text": "Сбер планирует получить 450 млрд руб. с помощью ИИ в 2025 году.",
     "price_difference": "N/A",
     "is_green": true,
@@ -57,7 +57,7 @@
   },
   {
     "ticker": "SBER",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326768",
     "summary_text": "Сбер презентовал нейросетевого помощника GigaChat 2.0 на открытом коде.",
     "price_difference": "N/A",
     "is_green": true,
@@ -65,7 +65,7 @@
   },
   {
     "ticker": "SBER",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326758",
     "summary_text": "Роскосмос планирует запустить нейросеть GigaChat Сбера на борту МКС к осени 2025 года.",
     "price_difference": "N/A",
     "is_green": true,
@@ -73,7 +73,7 @@
   },
   {
     "ticker": "SBER",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326617",
     "summary_text": "Бюджет РФ получил 484.7 млрд руб. доходов от размещения средств ФНБ, 78% из которых — дивиденды Сбера.",
     "price_difference": "N/A",
     "is_green": true,
@@ -81,7 +81,7 @@
   },
   {
     "ticker": "SBER",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326337",
     "summary_text": "Сбер сохраняет прогноз по рентабельности капитала на 2025 год свыше 22%.",
     "price_difference": "N/A",
     "is_green": true,
@@ -89,7 +89,7 @@
   },
   {
     "ticker": "SBER",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/325904",
     "summary_text": "Сбер станет маркетмейкером для российских криптовалютных платформ.",
     "price_difference": "N/A",
     "is_green": true,
@@ -97,7 +97,7 @@
   },
   {
     "ticker": "SBER",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/324537",
     "summary_text": "Чистая прибыль Сбера по РСБУ за январь-апрель 2025 года составила 542.3 млрд руб. (+9.5% г/г).",
     "price_difference": "+9.5%",
     "is_green": true,
@@ -105,7 +105,7 @@
   },
   {
     "ticker": "SBER",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/323930",
     "summary_text": "Акции Сбера выросли на 1.4% на торгах выходного дня.",
     "price_difference": "+1.4%",
     "is_green": true,
@@ -113,7 +113,7 @@
   },
   {
     "ticker": "SBER",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/323407",
     "summary_text": "Сбер вышел из капитала крымского производителя яблок «Грушевские сады».",
     "price_difference": "N/A",
     "is_green": false,
@@ -121,7 +121,7 @@
   },
   {
     "ticker": "SBER",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/323067",
     "summary_text": "«Страховой брокер Сбербанка» может быть закрыт или перепрофилирован.",
     "price_difference": "N/A",
     "is_green": false,
@@ -129,7 +129,7 @@
   },
   {
     "ticker": "SBER",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/322754",
     "summary_text": "Акции Сбера выросли на 0.3% на торгах выходного дня.",
     "price_difference": "+0.3%",
     "is_green": true,

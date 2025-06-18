@@ -1,10 +1,10 @@
 import json
-import logging
 from datetime import datetime
 
 import aiofiles
 from select import select
 from sqlalchemy import Column, Integer, String, DateTime, func, Text, Boolean
+
 from app.models.database import AsyncSessionLocal, Base
 from app.utils.config import config
 

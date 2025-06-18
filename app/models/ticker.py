@@ -32,7 +32,6 @@ async def create_initial_tickers():
 
 async def get_tickers() -> list[Ticker]:
     async with AsyncSessionLocal() as db:
-        # return ["GZPR", "LKOH", "SBER", "T", "VTBR", "YDEX"]
         result = await db.execute(select(Ticker))
         tickers = result.scalars().all()
         return tickers

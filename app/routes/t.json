@@ -1,7 +1,7 @@
 [
   {
     "ticker": "T",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/327005",
     "summary_text": "19-21 июня в центре Санкт-Петербурга пройдёт фестиваль Т-Двор. Третий день посвятят деньгам и инвестициям – программа как для опытных инвесторов, так и начинающих.",
     "price_difference": "0%",
     "is_green": true,
@@ -17,7 +17,7 @@
   },
   {
     "ticker": "T",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326857",
     "summary_text": "\"Т-ТЕХНОЛОГИИ\" НЕ ВИДЯТ РИСКОВ ПРИОСТАНОВКИ ЕЖЕКВАРТАЛЬНОЙ ВЫПЛАТЫ ДИВИДЕНДОВ.",
     "price_difference": "+0.8%",
     "is_green": true,
@@ -25,7 +25,7 @@
   },
   {
     "ticker": "T",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326831",
     "summary_text": "\"Т-Технологии\" изучают потенциальные M&A для повышения стоимости группы, но пока конкретных сделок нет.",
     "price_difference": "+0.5%",
     "is_green": true,
@@ -33,7 +33,7 @@
   },
   {
     "ticker": "T",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326470",
     "summary_text": "Фонд «Венчурные инвестиции 1» под управлением Т-Капитала закрыл первую сделку, получив 12,5% онлайн-сервиса бытовых услуг Airo.",
     "price_difference": "+1.0%",
     "is_green": true,
@@ -41,7 +41,7 @@
   },
   {
     "ticker": "T",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326265",
     "summary_text": "Чистая прибыль Т-Банка за 4 месяца по РСБУ снизилась в 2,9 раза - до 8,74 млрд руб.",
     "price_difference": "-3.5%",
     "is_green": false,
@@ -49,7 +49,7 @@
   },
   {
     "ticker": "T",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/326180",
     "summary_text": "Т-Банк выпустил первый в стране ЦФА, привязанный к стоимости BTC.",
     "price_difference": "+2.1%",
     "is_green": true,
@@ -57,7 +57,7 @@
   },
   {
     "ticker": "T",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/325969",
     "summary_text": "СП «Т-Технологий» и «Интерроса» стало владельцем 9,95% акций Яндекса.",
     "price_difference": "+1.7%",
     "is_green": true,
@@ -65,7 +65,7 @@
   },
   {
     "ticker": "T",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/325465",
     "summary_text": "Т-ТЕХНОЛОГИИ СЕЙЧАС НЕ ПЛАНИРУЮТ SPO ДЛЯ ПОПОЛНЕНИЯ КАПИТАЛА, НО БУДУТ СМОТРЕТЬ НА РЫНОК.",
     "price_difference": "0%",
     "is_green": true,
@@ -73,7 +73,7 @@
   },
   {
     "ticker": "T",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/325461",
     "summary_text": "Т-ТЕХНОЛОГИИ ПОДТВЕРЖДАЮТ ПЛАНЫ РАСПРЕДЕЛЯТЬ ДО 30% ПРИБЫЛИ НА ДИВИДЕНДЫ.",
     "price_difference": "+1.5%",
     "is_green": true,
@@ -81,7 +81,7 @@
   },
   {
     "ticker": "T",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/325422",
     "summary_text": "\"Т-ТЕХНОЛОГИИ\" В I КВ. НАРАСТИЛИ ЧИСТУЮ ПРИБЫЛЬ ПО МСФО НА 50% - ДО 33,5 МЛРД РУБ.",
     "price_difference": "+4.2%",
     "is_green": true,
@@ -89,7 +89,7 @@
   },
   {
     "ticker": "T",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/325340",
     "summary_text": "Т-Банк запустил программу долгосрочных сбережений с доходностью до 38% в первый год.",
     "price_difference": "+2.3%",
     "is_green": true,
@@ -97,7 +97,7 @@
   },
   {
     "ticker": "T",
-    "source": "markettwits",
+    "source": "https://t.me/markettwits/325298",
     "summary_text": "Т-Банк разработал AI-ассистента в сфере кибербезопасности, экономящего 1 млрд руб. в год.",
     "price_difference": "+1.8%",
     "is_green": true,

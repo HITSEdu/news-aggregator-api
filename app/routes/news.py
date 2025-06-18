@@ -51,4 +51,3 @@ async def get_news_by_ticker():
             data = json.loads(content)
             combined_data.extend(data)
     return combined_data
-
